@@ -28,10 +28,16 @@ production, never improvised.
 
 | Path | What it holds |
 |---|---|
-| `docs/process/` | Production process documents |
+| `docs/article/` | The article and its supporting contextual report |
 | `docs/manual/` | UAE Character Art Direction Manual source and build |
-| `docs/article/` | Article drafts, stage notes, reference verification |
-| `reference/` | Verified reference boards and research briefs |
+| `docs/process/` | Production process documents |
+| `docs/reference/` | Research briefs and cultural evidence base |
+| `source/` | Original files exactly as delivered (.docx, .md) |
+
+Files under `docs/` are the canonical, working versions. Files under `source/`
+are byte-for-byte originals kept for provenance. Where the two differ, the
+difference is em-dash normalization and is recorded in the canonical file's
+header comment and in its commit message.
 
 ### Process documents
 
@@ -46,6 +52,13 @@ production, never improvised.
 - [Endstar Contextual Report](docs/article/endstar-contextual-report.md)
   Platform definition, visual system, and UAE market context. Citation support
   for the article's non-peer-reviewed platform claims.
+
+### Reference
+
+- [UAE Cultural Research Brief](docs/reference/uae-cultural-research-brief.md)
+  Compiled evidence base: facial features, skin tone, traditional dress, Freej,
+  UAE animation industry context, plus the quick-reference checklist for
+  evaluating any Emirati character WIP.
 
 ---
 

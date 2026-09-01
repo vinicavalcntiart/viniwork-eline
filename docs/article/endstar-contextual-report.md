@@ -1,3 +1,6 @@
+<!-- Canonical version. Em dashes normalized per the project's zero em-dash rule, except inside the
+     direct quote from Endless Studios. Original as delivered: source/Endstar_Contextual_Report.docx -->
+
 # Contextual Report
 
 ## Endstar: Platform Definition, Visual System, and UAE Context

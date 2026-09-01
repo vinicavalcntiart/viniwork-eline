@@ -1,9 +1,5 @@
-<!-- Canonical version. Original as delivered: source/UAE_Character_Reference_Workflow.md -->
-
 # UAE Character Reference Workflow
-
-Internal reference pipeline — Freepik 2D → Tripo AI 3D → Manual Sculpt
-
+### Internal reference pipeline — Freepik 2D → Tripo AI 3D → Manual Sculpt
 **Author:** Vinícius Vieira Cavalcanti — Senior 3D Character Artist / Art Lead
 **Project:** Endstar UAE Characters — E-Line Media / Endless Studios
 **Status:** Internal process document
@@ -32,12 +28,11 @@ Reference generation (Stages 1 and 2 combined) is capped at 1 working day per ch
 **Goal:** Visualize proportion and design directions in Endstar stylization before touching ZBrush.
 
 **Process:**
-
 1. Consult the Manual sections relevant to the variant (variant definition, identity carriers, dress specification) BEFORE writing any prompt.
 2. Anchor every prompt with approved character references (`@` anchors) to lock Endstar stylization level.
 3. Generate 2–3 directions maximum per open question (e.g., teen vs young adult proportion). Wide exploration is scope creep.
 4. Prompts must explicitly specify the documented cultural markers so the generator does not default to generic MENA:
-   - *Sallat al saif* nasal profile: straight bridge, narrow alar base, pointed tip
+   - Sallat al saif nasal profile: straight bridge, narrow alar base, pointed tip
    - Correct burqa geometry when applicable: rigid golden mask, falcon read, eyes and cheekbones visible
    - Skin tone: warm light-medium, yellow present but not dominant
    - Abuteela in documented palette: deep green, red, white, gold
@@ -53,11 +48,10 @@ Reference generation (Stages 1 and 2 combined) is capped at 1 working day per ch
 **Goal:** Translate the verified 2D direction into a rough 3D volume reference to study proportion in space (cranium-to-face ratio, silhouette, mass distribution).
 
 **Process:**
-
 1. Input only concepts that passed the Gate in Stage 1.
 2. Treat the Tripo output as a 3D sketch to observe, the same way a maquette photo would be used. It is viewed, never imported into the production file.
 3. What to extract from it: silhouette read, proportion relationships, volume balance.
-4. What to ignore from it: surface detail, topology, facial specificity. Tripo will not produce a correct *sallat al saif* profile or correct burqa geometry. The Manual governs those, not the mesh.
+4. What to ignore from it: surface detail, topology, facial specificity. Tripo will not produce a correct sallat al saif profile or correct burqa geometry. The Manual governs those, not the mesh.
 5. Re-check the volume against the Gate. 2D-to-3D conversion frequently distorts nasal profile and face shape.
 
 **Output:** Verified 3D visual reference, screenshots on the internal board. The Tripo mesh itself never enters ZBrush, Blender, or any production directory.
@@ -69,7 +63,7 @@ Reference generation (Stages 1 and 2 combined) is capped at 1 working day per ch
 Binary pass/fail. One failure rejects the output as reference.
 
 | # | Check | Pass condition | Source |
-|---|---|---|---|
+|---|-------|---------------|--------|
 | G1 | Nasal profile | Straight bridge, no hump or concavity, narrow alar base, pointed tip. Legible at stylization level. | Wang et al. (2015); Manual §2.2 |
 | G2 | Eye construction | Large almond shape, defined outer corner, constructed eyelid rim, socket depth present. | Manual evidence base |
 | G3 | Face shape | Oval to round. Not angular, jaw does not dominate. | Manual evidence base |
@@ -90,10 +84,9 @@ Binary pass/fail. One failure rejects the output as reference.
 **Goal:** Produce the actual asset. This stage is 100% the artist's hand.
 
 **Process:**
-
 1. Sculpt from the approved base head/body of the parent character (asset reuse rule).
 2. The reference board (Stages 1–2) informs proportion decisions; it is not traced, projected, or imported.
-3. *Sallat al saif* is sculpted first and locked. All other proportion work (cranium ratio, eye scale, aging vectors) happens around it.
+3. Sallat al saif is sculpted first and locked. All other proportion work (cranium ratio, eye scale, aging vectors) happens around it.
 4. After each proportion or aging pass: re-run G1 and G7. Age and youth passes are the two highest-risk moments for nasal profile erosion.
 5. Blockout screenshot goes to the Art Director at the earliest readable state ("sketches out and react" model). Feedback is incorporated before any refinement.
 6. Previous versions are archived, never overwritten.
@@ -121,4 +114,4 @@ Manual consult → Freepik 2D (anchored, 2–3 directions) → GATE
 → Retopo / bake / texture → deformation test → handoff
 ```
 
-Speed comes from the gates, not despite them. Every hour spent verifying reference against the Manual saves days of resculpting after a cultural miss reaches the Art Director.
+**Speed comes from the gates, not despite them.** Every hour spent verifying reference against the Manual saves days of resculpting after a cultural miss reaches the Art Director.
