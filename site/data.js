@@ -41,7 +41,8 @@ window.PROJECT = {
       title: "UAE Male cycle",
       tasks: [
         { t: "Variants defined with Daniel: Young, Middle, Old, Elderly. Two bodies, slim and bigger", s: "done", why: "1 Sep 2026. Young + Middle share slim, Old + Elderly share bigger, both \"for now\"." },
-        { t: "Send Daniel the four open questions: tassel default, beard, bisht scope, gutra colour", s: "active", why: "One message, not four. See docs/direction/uae-male-brief.md" },
+        { t: "Gutra colour and fit locked: all clothing white, never on the shoulders, ears always covered", s: "done", why: "Daniel, 1 Sep 2026" },
+        { t: "Send Daniel the three open questions: tassel default, beard, bisht scope", s: "active", why: "One message, not three. See docs/direction/uae-male-brief.md" },
         { t: "Consult Khalaf (2005) on kandura cut, tarboosh tassel, gutra and agal, na'al", s: "active" },
         { t: "Age-specific headwear, agal and beard conventions for Old and Elderly", s: "next", flag: "NEEDS EVIDENCE" },
         { t: "Freepik 2D reference, anchored, 2 to 3 directions per variant, one day cap", s: "next" },
@@ -54,7 +55,7 @@ window.PROJECT = {
         { t: "Head, Old. Aging around the nose, re-run G1 and G7 after the pass", s: "next" },
         { t: "Head, Elderly. Aging around the nose, re-run G1 and G7 after the pass", s: "next" },
         { t: "Kandura, no collar. Tarboosh tassel as a toggle mesh", s: "next" },
-        { t: "Gutra + agal toggle mesh, must clear the hair mesh in both states", s: "next" },
+        { t: "Gutra + agal toggle mesh. Off the shoulders, ears covered, must clear the hair mesh in both states", s: "next" },
         { t: "Hair toggle mesh, sits under the gutra volume", s: "next" },
         { t: "Feet and sandals as one mesh, no separate toes", s: "next" },
         { t: "Blockout screenshots to Daniel, react before refining", s: "next" },
@@ -156,6 +157,8 @@ window.PROJECT = {
     ["Burqa", "Rigid gold mask over nose and mouth, eyes and cheekbones visible. Falcon read."],
     ["Elder underdress", "Al Sadu bands, red / black / white / burnt orange. [EXTENSION]"],
     ["Jewelry", "Dark aged gold, matching the approved UAE Female."],
+    ["Male dress", "All white. Kandura with no collar, tarboosh tassel. Daniel, 1 Sep 2026."],
+    ["Gutra fit", "Never on the shoulders. Always covering the ears. Every pose. Daniel, 1 Sep 2026."],
   ],
 
   pipeline: [

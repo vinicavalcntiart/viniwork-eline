@@ -3,6 +3,7 @@
 **Date:** 1 September 2026
 **Source:** Slack, plus an annotated Blender screenshot over a placeholder mesh
 **Status:** Direction received, research not started
+**Addendum, same day:** all clothing white; gutra never on the shoulders, always covering the ears.
 
 ---
 
@@ -23,6 +24,9 @@ that it stays two.
 ## Shared across all four
 
 - Body, head, hands as the core asset
+- **All clothing white.** Kandura and gutra, no colour anywhere in the garment.
+- **Gutra never rests on the shoulders and always covers the ears.** Fit rule, not a
+  style option. Applies in every pose the rig reaches.
 - Kandura with **no collar**
 - **Emirati tarboosh tassel**, on a toggle
 - **Gutra + agal**, on a toggle
@@ -55,7 +59,7 @@ approved base, *sallat al saif* first and locked, then the age pass around it.
 
 ## Open questions for Daniel
 
-Not asked yet. Listed so they go into one message, not four.
+Not asked yet. Listed so they go into one message, not three.
 
 - **Tassel default.** The collarless cut with the tassel is what makes a kandura read
   Emirati rather than Saudi or Omani. If the toggle defaults to off, the character loses
@@ -65,8 +69,6 @@ Not asked yet. Listed so they go into one message, not four.
   into the head, or absent?
 - **Bisht.** The dark cloak with gold trim is elder and formal wear. Not in the brief.
   Confirm it is out of scope so no one sculpts it.
-- **Gutra colour.** White gutra or red-checked shemagh. Both are worn. White is the
-  safer default. Confirm.
 
 ## Evidence base
 
