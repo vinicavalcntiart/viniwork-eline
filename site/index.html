@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UAE Character Monitor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;1,500&family=Poppins:wght@400;500;600&display=swap">
+<style>
+:root{
+  --bg:#F3EDE2; --bg2:#EAE2D3; --ink:#1F1D1A; --ink2:#5C554B; --line:#D8CEBB;
+  --gold:#B8912F; --gold2:#8F6E1E; --card:#FBF8F1;
+  --done:#2F6B4F; --active:#B8912F; --next:#6E6659; --blocked:#B5502A; --waiting:#7A7266; --verify:#8A5A9E;
+  --done-bg:#DCEBE1; --active-bg:#F2E6C3; --next-bg:#E6E0D5; --blocked-bg:#F4DACE; --waiting-bg:#E6E0D5; --verify-bg:#E9DDEE;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#1B1916; --bg2:#242119; --ink:#EFE8DA; --ink2:#B4AA98; --line:#3A352C;
+    --gold:#D4AE4E; --gold2:#E2C36A; --card:#232019;
+    --done-bg:#1F3A2E; --active-bg:#3B3117; --next-bg:#2C2922; --blocked-bg:#3F2419; --waiting-bg:#2C2922; --verify-bg:#33273A;
+    --done:#8CC9A6; --active:#E2C36A; --next:#B4AA98; --blocked:#F0A07E; --waiting:#B4AA98; --verify:#CDA8DC;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#1B1916; --bg2:#242119; --ink:#EFE8DA; --ink2:#B4AA98; --line:#3A352C;
+  --gold:#D4AE4E; --gold2:#E2C36A; --card:#232019;
+  --done-bg:#1F3A2E; --active-bg:#3B3117; --next-bg:#2C2922; --blocked-bg:#3F2419; --waiting-bg:#2C2922; --verify-bg:#33273A;
+  --done:#8CC9A6; --active:#E2C36A; --next:#B4AA98; --blocked:#F0A07E; --waiting:#B4AA98; --verify:#CDA8DC;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.6 Poppins,system-ui,sans-serif}
+a{color:var(--gold2);text-decoration:none;border-bottom:1px solid transparent}
+a:hover,a:focus-visible{border-bottom-color:currentColor;outline:none}
+h1,h2,h3{font-family:Lora,Georgia,serif;font-weight:600;text-wrap:balance;margin:0}
+h1{font-size:2rem;line-height:1.15}
+h2{font-size:1.35rem;margin-bottom:.35rem}
+h3{font-size:1.05rem}
+.eyebrow{font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold2);font-weight:600}
+.muted{color:var(--ink2)}
+.layout{display:grid;grid-template-columns:220px 1fr;min-height:100vh}
+nav{position:sticky;top:0;height:100vh;padding:2rem 1.25rem;border-right:1px solid var(--line);background:var(--bg2);display:flex;flex-direction:column;gap:.35rem}
+nav .brand{font-family:Lora,serif;font-size:1.1rem;font-weight:600;margin-bottom:1rem;line-height:1.2}
+nav a{display:block;padding:.35rem .5rem;border-radius:4px;color:var(--ink2);border:0;font-size:.9rem}
+nav a:hover{background:var(--card);color:var(--ink)}
+nav .foot{margin-top:auto;font-size:.75rem;color:var(--ink2)}
+main{padding:2.5rem 3rem 5rem;max-width:1080px}
+section{margin-bottom:3.5rem}
+header.top{display:flex;justify-content:space-between;align-items:flex-end;gap:2rem;margin-bottom:2.5rem;padding-bottom:1.5rem;border-bottom:2px solid var(--gold)}
+header.top .meta{text-align:right;font-size:.85rem;color:var(--ink2);white-space:nowrap}
+header.top .meta b{color:var(--ink);font-weight:500;display:block;font-size:1rem}
+
+.chars{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem}
+.char{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:1rem 1.1rem;display:flex;flex-direction:column;gap:.4rem}
+.char h3{font-size:1.1rem}
+.char .role{font-size:.8rem;color:var(--ink2)}
+.char p{margin:0;font-size:.85rem;color:var(--ink2)}
+.char.active{border-color:var(--gold);box-shadow:0 0 0 3px var(--active-bg) inset}
+
+.pill{display:inline-block;font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;font-weight:600;padding:.15rem .55rem;border-radius:999px;white-space:nowrap}
+.s-done{background:var(--done-bg);color:var(--done)}
+.s-active{background:var(--active-bg);color:var(--active)}
+.s-next{background:var(--next-bg);color:var(--next)}
+.s-blocked{background:var(--blocked-bg);color:var(--blocked)}
+.s-waiting{background:var(--waiting-bg);color:var(--waiting)}
+.s-verify{background:var(--verify-bg);color:var(--verify)}
+.flag{font-family:ui-monospace,Menlo,monospace;font-size:.7rem;color:var(--blocked);background:var(--blocked-bg);padding:.05rem .4rem;border-radius:3px;margin-left:.4rem}
+.pri{color:var(--blocked);font-weight:600;font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;margin-left:.4rem}
+
+.counts{display:flex;gap:1.5rem;flex-wrap:wrap;margin:.75rem 0 1.5rem;font-size:.85rem;color:var(--ink2)}
+.counts b{font-size:1.4rem;font-family:Lora,serif;color:var(--ink);font-variant-numeric:tabular-nums;margin-right:.3rem}
+
+.group{margin-bottom:1.75rem}
+.group h3{padding-bottom:.4rem;border-bottom:1px solid var(--line);margin-bottom:.25rem;display:flex;justify-content:space-between;align-items:baseline}
+.group h3 span{font-family:Poppins;font-size:.75rem;color:var(--ink2);font-weight:400}
+.task{display:grid;grid-template-columns:92px 1fr;gap:.9rem;padding:.55rem 0;border-bottom:1px dashed var(--line);align-items:start}
+.task:last-child{border-bottom:0}
+.task .pill{margin-top:.25rem}
+.task .why{display:block;font-size:.8rem;color:var(--ink2);margin-top:.1rem}
+.task.done .t{color:var(--ink2);text-decoration:line-through;text-decoration-color:var(--line)}
+
+table{width:100%;border-collapse:collapse;font-size:.85rem}
+.tw{overflow-x:auto;border:1px solid var(--line);border-radius:6px;background:var(--card)}
+th{text-align:left;font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink2);font-weight:600;padding:.6rem .8rem;border-bottom:1px solid var(--line);background:var(--bg2)}
+td{padding:.55rem .8rem;border-bottom:1px solid var(--line);vertical-align:top}
+tr:last-child td{border-bottom:0}
+td code{font-family:ui-monospace,Menlo,monospace;font-size:.75rem;color:var(--ink2)}
+.num{font-family:Lora,serif;font-weight:600;color:var(--gold2);font-variant-numeric:tabular-nums}
+
+.pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-bottom:1.5rem}
+.pillar{padding:1rem 1.1rem;border-left:3px solid var(--gold);background:var(--card)}
+.pillar h3{font-size:1rem;margin-bottom:.3rem}
+.pillar p{margin:0;font-size:.82rem;color:var(--ink2)}
+.pillar .st{color:var(--ink);margin-top:.35rem;font-weight:500}
+
+.chips{display:flex;flex-wrap:wrap;gap:.4rem}
+.chip{font-size:.8rem;padding:.25rem .65rem;border:1px solid var(--line);border-radius:999px;background:var(--card)}
+.chip.miss{border-color:var(--blocked);color:var(--blocked)}
+
+dl.locked{display:grid;grid-template-columns:140px 1fr;gap:.45rem 1rem;margin:0;font-size:.88rem}
+dl.locked dt{font-weight:600;color:var(--gold2);font-family:Lora,serif}
+dl.locked dd{margin:0;color:var(--ink2)}
+
+.links{display:flex;gap:1rem;flex-wrap:wrap}
+.links a{padding:.6rem 1rem;border:1px solid var(--line);border-radius:6px;background:var(--card);color:var(--ink);font-weight:500;font-size:.9rem}
+.links a:hover{border-color:var(--gold)}
+
+@media (max-width:860px){
+  .layout{grid-template-columns:1fr}
+  nav{position:static;height:auto;border-right:0;border-bottom:1px solid var(--line);flex-direction:row;flex-wrap:wrap;padding:1rem}
+  nav .brand{width:100%;margin-bottom:.25rem}
+  nav .foot{display:none}
+  main{padding:1.5rem 1.25rem 4rem}
+  header.top{flex-direction:column;align-items:flex-start}
+  header.top .meta{text-align:left}
+  .pillars{grid-template-columns:1fr}
+  dl.locked{grid-template-columns:1fr}
+  .task{grid-template-columns:1fr}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="layout">
+<nav>
+  <div class="brand">UAE Character Project<br><span class="muted" style="font-family:Poppins;font-size:.75rem;font-weight:400">Endstar · E-Line Media</span></div>
+  <a href="#status">Status</a>
+  <a href="#tasks">Tasks</a>
+  <a href="#research">Research</a>
+  <a href="#figures">Figures</a>
+  <a href="#locked">Locked decisions</a>
+  <a href="#links">Links</a>
+  <div class="foot">Updated <span id="upd"></span></div>
+</nav>
+<main>
+<header class="top">
+  <div>
+    <div class="eyebrow">Task monitor</div>
+    <h1>UAE Characters for Endstar</h1>
+    <div class="muted" style="margin-top:.4rem">Vinícius Vieira Cavalcanti · Art Lead · Creative Director Daniel</div>
+  </div>
+  <div class="meta"><b id="deadline"></b>project deadline</div>
+</header>
+
+<section id="status">
+  <div class="eyebrow">Characters</div>
+  <h2>Three delivered, one in flight</h2>
+  <div class="chars" id="chars"></div>
+</section>
+
+<section id="tasks">
+  <div class="eyebrow">Work</div>
+  <h2>Tasks</h2>
+  <div class="counts" id="counts"></div>
+  <div id="groups"></div>
+</section>
+
+<section id="research">
+  <div class="eyebrow">Article</div>
+  <h2>Three evidential pillars</h2>
+  <div class="pillars" id="pillars"></div>
+  <h3 style="margin:1.5rem 0 .5rem">Sources in the Drive folder</h3>
+  <div class="tw"><table id="sources"><thead><tr><th>Reference</th><th>File</th><th>In article</th></tr></thead><tbody></tbody></table></div>
+  <h3 style="margin:1.5rem 0 .5rem">Cited but not on file</h3>
+  <div class="chips" id="missing"></div>
+</section>
+
+<section id="figures">
+  <div class="eyebrow">Article</div>
+  <h2>Figures</h2>
+  <div class="tw"><table id="figs"><thead><tr><th>Fig</th><th>Subject</th><th>Source</th><th>State</th></tr></thead><tbody></tbody></table></div>
+  <h3 style="margin:1.5rem 0 .5rem">Reference images in Drive</h3>
+  <div class="tw"><table id="imgs"><thead><tr><th>File</th><th>What it shows</th></tr></thead><tbody></tbody></table></div>
+</section>
+
+<section id="locked">
+  <div class="eyebrow">Art direction</div>
+  <h2>Locked cultural decisions</h2>
+  <p class="muted" style="margin:.25rem 0 1rem;max-width:60ch">Set by the Manual, which answers to the article. Nothing here changes without Daniel.</p>
+  <dl class="locked" id="lockedl"></dl>
+  <h3 style="margin:1.75rem 0 .5rem">Pipeline constraints</h3>
+  <div class="chips" id="pipe"></div>
+</section>
+
+<section id="links">
+  <div class="eyebrow">Access</div>
+  <h2>Where things live</h2>
+  <div class="links" id="linksl"></div>
+</section>
+</main>
+</div>
+<script src="data.js"></script>
+<script>
+(function(){
+  const P=window.PROJECT, $=s=>document.querySelector(s), esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  const LBL={done:'Done',active:'In progress',next:'Next',blocked:'Blocked',waiting:'Waiting',verify:'Verify'};
+  const pill=s=>`<span class="pill s-${s}">${LBL[s]||s}</span>`;
+  const drive=id=>`https://drive.google.com/file/d/${id}/view`;
+  $('#upd').textContent=P.updated; $('#deadline').textContent=P.deadline;
+
+  $('#chars').innerHTML=P.characters.map(c=>`<div class="char ${c.status}"><div>${pill(c.status)}</div><h3>${esc(c.name)}</h3><div class="role">${esc(c.role)}</div><p>${esc(c.note)}</p></div>`).join('');
+
+  const all=P.groups.flatMap(g=>g.tasks), cnt=s=>all.filter(t=>t.s===s).length;
+  $('#counts').innerHTML=['active','next','blocked','waiting','verify'].filter(cnt).map(s=>`<span><b>${cnt(s)}</b>${LBL[s].toLowerCase()}</span>`).join('');
+  $('#groups').innerHTML=P.groups.map(g=>`<div class="group"><h3>${esc(g.title)}<span>${g.tasks.length} tasks</span></h3>${g.tasks.map(t=>`<div class="task ${t.s}"><div>${pill(t.s)}</div><div><span class="t">${esc(t.t)}</span>${t.flag?`<span class="flag">[${esc(t.flag)}]</span>`:''}${t.pri?`<span class="pri">${esc(t.pri)}</span>`:''}${t.why?`<span class="why">${esc(t.why)}</span>`:''}</div></div>`).join('')}</div>`).join('');
+
+  $('#pillars').innerHTML=P.pillars.map(p=>`<div class="pillar"><h3>${esc(p.name)}</h3><p>${esc(p.sources)}</p><p class="st">${esc(p.state)}</p></div>`).join('');
+  $('#sources tbody').innerHTML=P.sources.map(s=>`<tr><td>${esc(s.ref)}${s.warn?'<span class="flag">check</span>':''}</td><td><a href="${drive(s.id)}" target="_blank" rel="noopener"><code>${esc(s.file)}</code></a></td><td>${s.project?'<span class="muted">project doc</span>':s.cited?'yes':'<span class="muted">no</span>'}</td></tr>`).join('');
+  $('#missing').innerHTML=P.missing.map(m=>`<span class="chip miss">${esc(m)}</span>`).join('');
+
+  $('#figs tbody').innerHTML=P.figures.map(f=>`<tr><td class="num">${f.n}</td><td>${esc(f.title)}</td><td><a href="${drive(f.id)}" target="_blank" rel="noopener"><code>${esc(f.file)}</code></a></td><td>${esc(f.state)}</td></tr>`).join('');
+  $('#imgs tbody').innerHTML=P.images.map(i=>`<tr><td><a href="${drive(i.id)}" target="_blank" rel="noopener"><code>${esc(i.file)}</code></a></td><td>${esc(i.what)}</td></tr>`).join('');
+
+  $('#lockedl').innerHTML=P.locked.map(([k,v])=>`<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join('');
+  $('#pipe').innerHTML=P.pipeline.map(p=>`<span class="chip">${esc(p)}</span>`).join('');
+  $('#linksl').innerHTML=`<a href="${P.drive}" target="_blank" rel="noopener">Project Drive folder</a><a href="${P.repo}" target="_blank" rel="noopener">Repository</a><a href="${P.repo}/docs/article/designing-emirati-characters.md" target="_blank" rel="noopener">Article draft</a><a href="${P.repo}/docs/process/uae-character-reference-workflow.md" target="_blank" rel="noopener">Reference workflow</a><a href="${P.repo}/docs/reference/drive-index.md" target="_blank" rel="noopener">Drive index</a>`;
+})();
+</script>
+</body>
+</html>

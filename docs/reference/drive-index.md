@@ -80,13 +80,13 @@ All eight carry a `.png` extension but are JPEG data.
 | File | Drive ID | Content |
 |---|---|---|
 | UAEWomans.png | `1X3DKSRRjxrXkUQbmdaBaIFJKfHXJ1yvl` | Four Emirati women, gold burqas, Abuteela in red / green / white / orange, black shayla, gold jewelry, striped geometric textile backdrop. See `docs/article/figures.md`. |
-| imagem_20260526_234036116.png | `14N2F_B6r-szq394JBytLsmhtwtpKwWY-` | Not yet reviewed |
-| imagem_20260526_174110039.png | `1yzk6JoEiYlLo5zVxCHa3NUvyOqcCQAhN` | Not yet reviewed |
-| imagem_20260526_174118913.png | `1pf6ZRnrscJMOXMO_RaF-YRT_sD69LPV5` | Not yet reviewed |
-| imagem_20260526_174128009.png | `1Zq29io2O72suHn-RtMKKmgqspj-cHdp8` | Not yet reviewed |
-| imagem_20260526_174137432.png | `13YZaFJcmxALfQp4l7OgqCR78D_l4QbH1` | Not yet reviewed |
-| imagem_20260526_174146371.png | `148xFg45hKHBdewWB3Jb6mXgDoDqNAKXi` | Not yet reviewed |
-| imagem_20260526_174155428.png | `1VewIzZF3uM6um43G83GngEaQXzLobFr5` | Not yet reviewed |
+| imagem_20260526_234036116.png | `14N2F_B6r-szq394JBytLsmhtwtpKwWY-` | Elderly woman, dark burqa with bronze strip, areesh wall. Current Figure 2. 532 by 392. |
+| imagem_20260526_174110039.png | `1yzk6JoEiYlLo5zVxCHa3NUvyOqcCQAhN` | E-Line Media portfolio sheet, sea-warrior character, three views. Stylization reference. |
+| imagem_20260526_174118913.png | `1pf6ZRnrscJMOXMO_RaF-YRT_sD69LPV5` | UAE Female render, full body and close-up. Figures 1, 5, 7. |
+| imagem_20260526_174128009.png | `1Zq29io2O72suHn-RtMKKmgqspj-cHdp8` | Endstar group on deck. Too crowded for print. |
+| imagem_20260526_174137432.png | `13YZaFJcmxALfQp4l7OgqCR78D_l4QbH1` | Endstar development build, dungeon, UI and watermark visible. |
+| imagem_20260526_174146371.png | `148xFg45hKHBdewWB3Jb6mXgDoDqNAKXi` | Endstar blacksmith scene. Best close-range stylization example. |
+| imagem_20260526_174155428.png | `1VewIzZF3uM6um43G83GngEaQXzLobFr5` | Endstar formation lineup. Figure 8. |
 
 ---
 

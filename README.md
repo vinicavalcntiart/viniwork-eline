@@ -24,6 +24,13 @@ production, never improvised.
 
 ---
 
+## Task monitor
+
+Live site, deployed from `site/` by GitHub Actions:
+**https://vinicavalcntiart.github.io/viniwork-eline/**
+
+Edit `site/data.js` to update tasks, sources, and figures. The page renders from it.
+
 ## Contents
 
 | Path | What it holds |
@@ -32,6 +39,7 @@ production, never improvised.
 | `docs/manual/` | UAE Character Art Direction Manual source and build |
 | `docs/process/` | Production process documents |
 | `docs/reference/` | Research briefs and cultural evidence base |
+| `site/` | Task monitor, static site published to GitHub Pages |
 | `source/` | Original files exactly as delivered (.docx, .md) |
 
 Binaries stay in Google Drive. See [drive-index.md](docs/reference/drive-index.md).
