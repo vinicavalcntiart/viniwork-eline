@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="en" data-theme="dark">
+<html lang="pt-BR" data-theme="dark">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>UAE Character Monitor</title>
+<title>Monitor UAE</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
@@ -153,9 +153,9 @@ tr:hover td{background:var(--card2)}
 .fig .src{font-size:.78rem;color:var(--ink2)}
 .fig .foot{display:flex;justify-content:space-between;align-items:center;margin-top:auto;padding-top:.5rem}
 .st{font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;font-weight:700;padding:.15rem .5rem;border-radius:5px}
-.st.mapped{color:var(--done);background:color-mix(in srgb,var(--done) 14%,transparent)}
-.st.swap{color:var(--gold);background:color-mix(in srgb,var(--gold) 14%,transparent)}
-.st.extract,.st.partial{color:var(--active);background:color-mix(in srgb,var(--active) 14%,transparent)}
+.st.mapeada{color:var(--done);background:color-mix(in srgb,var(--done) 14%,transparent)}
+.st.trocar{color:var(--gold);background:color-mix(in srgb,var(--gold) 14%,transparent)}
+.st.extrair,.st.parcial{color:var(--active);background:color-mix(in srgb,var(--active) 14%,transparent)}
 
 /* direction */
 .gate{display:grid;gap:.5rem}
@@ -192,17 +192,17 @@ dd{margin:0;color:var(--ink2)}
 </head>
 <body>
 <div class="top">
-  <div class="brand"><h1>UAE Characters</h1><small>Endstar · E-Line Media</small></div>
+  <div class="brand"><h1>Personagens UAE</h1><small>Endstar · E-Line Media</small></div>
   <nav class="tabs" role="tablist">
-    <button role="tab" data-v="board" aria-selected="true">Board</button>
-    <button role="tab" data-v="research">Research</button>
-    <button role="tab" data-v="figures">Figures</button>
-    <button role="tab" data-v="direction">Direction</button>
+    <button role="tab" data-v="board" aria-selected="true">Quadro</button>
+    <button role="tab" data-v="research">Pesquisa</button>
+    <button role="tab" data-v="figures">Figuras</button>
+    <button role="tab" data-v="direction">Direção</button>
   </nav>
   <div class="right">
-    <div class="count"><b id="days">–</b><span>days to deadline</span></div>
-    <button class="pbtn" id="export" title="Copy your local changes as JSON to send back">Copy changes</button>
-    <button class="ibtn" id="theme" title="Toggle theme" aria-label="Toggle theme">◐</button>
+    <div class="count"><b id="days">–</b><span>dias até a entrega</span></div>
+    <button class="pbtn" id="export" title="Copia suas mudanças locais como JSON para mandar de volta">Copiar mudanças</button>
+    <button class="ibtn" id="theme" title="Alternar tema" aria-label="Alternar tema">◐</button>
   </div>
 </div>
 
@@ -216,17 +216,17 @@ dd{margin:0;color:var(--ink2)}
 
 <section class="view" id="v-research">
   <div class="panel">
-    <h3>Article workflow <span class="eyebrow">nine stages, each needs approval</span></h3>
+    <h3>Etapas do artigo <span class="eyebrow">nove etapas, cada uma com aprovação</span></h3>
     <div class="stepper" id="stepper"></div>
   </div>
   <div class="grid2" style="margin-top:1.25rem">
     <div>
-      <div class="panel"><h3>Sources in the Drive folder</h3><div class="tw"><table id="sources"><thead><tr><th>Reference</th><th>File</th><th>Cited</th><th></th></tr></thead><tbody></tbody></table></div></div>
-      <div class="panel"><h3>Cited, not on file <span class="eyebrow">stage E2 blockers</span></h3><div class="miss" id="missing"></div></div>
+      <div class="panel"><h3>Fontes na pasta do Drive</h3><div class="tw"><table id="sources"><thead><tr><th>Referência</th><th>Arquivo</th><th>Citada</th><th></th></tr></thead><tbody></tbody></table></div></div>
+      <div class="panel"><h3>Citadas, não estão na pasta <span class="eyebrow">travam a etapa E2</span></h3><div class="miss" id="missing"></div></div>
     </div>
     <div>
-      <div class="panel"><h3>Three evidential pillars</h3><div class="pillars" id="pillars" style="grid-template-columns:1fr"></div></div>
-      <div class="panel"><h3>Reference images</h3><div class="tw"><table id="imgs"><thead><tr><th>File</th><th>Shows</th><th></th></tr></thead><tbody></tbody></table></div></div>
+      <div class="panel"><h3>Três pilares de evidência</h3><div class="pillars" id="pillars" style="grid-template-columns:1fr"></div></div>
+      <div class="panel"><h3>Imagens de referência</h3><div class="tw"><table id="imgs"><thead><tr><th>Arquivo</th><th>Mostra</th><th></th></tr></thead><tbody></tbody></table></div></div>
     </div>
   </div>
 </section>
@@ -238,14 +238,14 @@ dd{margin:0;color:var(--ink2)}
 <section class="view" id="v-direction">
   <div class="grid2">
     <div class="panel">
-      <h3>Cultural Verification Gate <span class="eyebrow">one failure rejects the output</span></h3>
+      <h3>Gate de verificação cultural <span class="eyebrow">uma falha rejeita a referência</span></h3>
       <div class="gate" id="gate"></div>
-      <div class="verdict" id="verdict"><span>Tick each check against the WIP</span><button class="pbtn" id="gatereset">Reset</button></div>
+      <div class="verdict" id="verdict"><span>Marque cada item contra o WIP</span><button class="pbtn" id="gatereset">Zerar</button></div>
     </div>
     <div>
-      <div class="panel"><h3>Locked decisions <span class="eyebrow">Daniel only</span></h3><dl id="locked"></dl></div>
-      <div class="panel"><h3>Pipeline constraints</h3><div class="pipe" id="pipe"></div></div>
-      <div class="panel"><h3>Where things live</h3><div class="pipe" id="links"></div></div>
+      <div class="panel"><h3>Decisões travadas <span class="eyebrow">só o Daniel muda</span></h3><dl id="locked"></dl></div>
+      <div class="panel"><h3>Restrições do pipeline</h3><div class="pipe" id="pipe"></div></div>
+      <div class="panel"><h3>Onde as coisas estão</h3><div class="pipe" id="links"></div></div>
     </div>
   </div>
 </section>
@@ -253,16 +253,16 @@ dd{margin:0;color:var(--ink2)}
 
 <div class="scrim" id="scrim"></div>
 <aside class="drawer" id="drawer" aria-hidden="true">
-  <header><span class="eyebrow" id="d-group"></span><button class="ibtn" id="d-close" style="margin-left:auto" aria-label="Close">✕</button></header>
+  <header><span class="eyebrow" id="d-group"></span><button class="ibtn" id="d-close" style="margin-left:auto" aria-label="Fechar">✕</button></header>
   <div class="body">
     <h2 id="d-title"></h2>
     <div id="d-tags" style="display:flex;gap:.4rem;flex-wrap:wrap"></div>
     <div class="why" id="d-why" hidden></div>
     <div class="field"><label>Status</label><div class="statusgrid" id="d-status"></div></div>
-    <div class="field"><label>Notes</label><textarea id="d-note" rows="6" placeholder="Anything you want to remember on this one. Saved in this browser, exported with Copy changes."></textarea></div>
-    <div class="field"><label>Title</label><input id="d-t"></div>
+    <div class="field"><label>Notas</label><textarea id="d-note" rows="6" placeholder="O que quiser lembrar nessa tarefa. Fica salvo neste navegador e sai no Copiar mudanças."></textarea></div>
+    <div class="field"><label>Título</label><input id="d-t"></div>
   </div>
-  <footer><span id="d-id" class="mono"></span><button class="pbtn" id="d-del">Remove</button></footer>
+  <footer><span id="d-id" class="mono"></span><button class="pbtn" id="d-del">Remover</button></footer>
 </aside>
 <div class="toast" id="toast"></div>
 
@@ -272,8 +272,8 @@ dd{margin:0;color:var(--ink2)}
 const P=window.PROJECT, $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const drive=id=>`https://drive.google.com/file/d/${id}/view`;
-const ST={blocked:'Blocked',next:'Next',active:'In progress',waiting:'Waiting',verify:'Verify',done:'Done'};
-const COLS=[['blocked','Blocked'],['next','Up next'],['active','In progress'],['waiting','Waiting / verify'],['done','Done']];
+const ST={blocked:'Travada',next:'Próxima',active:'Em andamento',waiting:'Esperando',verify:'Conferir',done:'Feita'};
+const COLS=[['blocked','Travadas'],['next','Próximas'],['active','Em andamento'],['waiting','Esperando / conferir'],['done','Feitas']];
 const colOf=s=>s==='verify'?'waiting':s;
 const LS=k=>{try{return JSON.parse(localStorage.getItem('uae.'+k))}catch(e){return null}};
 const SV=(k,v)=>{try{localStorage.setItem('uae.'+k,JSON.stringify(v))}catch(e){}};
@@ -307,15 +307,15 @@ function render(){
   // kpis
   const n=s=>all.filter(t=>t.s===s).length, tot=all.length, done=n('done');
   const male=all.filter(t=>t.gi===0), mdone=male.filter(t=>t.s==='done').length;
-  const art=all.filter(t=>t.group==='Article'), adone=art.filter(t=>t.s==='done').length;
+  const art=all.filter(t=>t.group.startsWith('Artigo')), adone=art.filter(t=>t.s==='done').length;
   $('#kpis').innerHTML=`
-    <div class="kpi hi"><div class="lbl">In progress</div><div class="val">${n('active')}</div><div class="sub">${n('blocked')} blocked · ${n('next')} up next</div></div>
-    <div class="kpi"><div class="lbl">UAE Male cycle</div><div class="val">${mdone}<span style="font-size:1rem;color:var(--ink2)"> / ${male.length}</span></div><div class="bar"><i style="width:${male.length?100*mdone/male.length:0}%"></i></div></div>
-    <div class="kpi"><div class="lbl">Article</div><div class="val">${adone}<span style="font-size:1rem;color:var(--ink2)"> / ${art.length}</span></div><div class="bar"><i style="width:${art.length?100*adone/art.length:0}%"></i></div></div>
-    <div class="kpi"><div class="lbl">Everything</div><div class="val">${done}<span style="font-size:1rem;color:var(--ink2)"> / ${tot}</span></div><div class="bar"><i style="width:${tot?100*done/tot:0}%"></i></div></div>`;
+    <div class="kpi hi"><div class="lbl">Em andamento</div><div class="val">${n('active')}</div><div class="sub">${n('blocked')} travadas · ${n('next')} próximas</div></div>
+    <div class="kpi"><div class="lbl">Sprint 15 set</div><div class="val">${mdone}<span style="font-size:1rem;color:var(--ink2)"> / ${male.length}</span></div><div class="bar"><i style="width:${male.length?100*mdone/male.length:0}%"></i></div></div>
+    <div class="kpi"><div class="lbl">Artigo</div><div class="val">${adone}<span style="font-size:1rem;color:var(--ink2)"> / ${art.length}</span></div><div class="bar"><i style="width:${art.length?100*adone/art.length:0}%"></i></div></div>
+    <div class="kpi"><div class="lbl">Tudo</div><div class="val">${done}<span style="font-size:1rem;color:var(--ink2)"> / ${tot}</span></div><div class="bar"><i style="width:${tot?100*done/tot:0}%"></i></div></div>`;
   // filters
   const gs=groupNames();
-  $('#filters').innerHTML=`<button class="chip" data-f="all" aria-pressed="${filt==='all'}">All</button>`+gs.map(g=>`<button class="chip" data-f="${esc(g)}" aria-pressed="${filt===g}">${esc(g)}</button>`).join('')+`<button class="pbtn gold" id="add">+ Task</button><label class="search"><span style="color:var(--ink3)">⌕</span><input id="q" placeholder="Search tasks" value="${esc(q)}"></label>`;
+  $('#filters').innerHTML=`<button class="chip" data-f="all" aria-pressed="${filt==='all'}">Todas</button>`+gs.map(g=>`<button class="chip" data-f="${esc(g)}" aria-pressed="${filt===g}">${esc(g)}</button>`).join('')+`<button class="pbtn gold" id="add">+ Tarefa</button><label class="search"><span style="color:var(--ink3)">⌕</span><input id="q" placeholder="Buscar tarefas" value="${esc(q)}"></label>`;
   $$('#filters .chip').forEach(b=>b.onclick=()=>{filt=b.dataset.f;SV('filt',filt);render()});
   $('#q').oninput=e=>{q=e.target.value;renderBoard(all)};
   $('#add').onclick=addTask;
@@ -323,15 +323,15 @@ function render(){
 }
 function renderBoard(all){
   const vis=all.filter(t=>(filt==='all'||t.group===filt)&&(!q||(t.t+' '+(t.why||'')+' '+(t.note||'')).toLowerCase().includes(q.toLowerCase())));
-  $('#board').innerHTML=COLS.map(([k,label])=>{const cs=vis.filter(t=>colOf(t.s)===k);return `<div class="col" data-col="${k}"><header><span class="dot" style="background:var(--${k})"></span><h3>${label}</h3><span class="n">${cs.length}</span></header><div class="cards">${cs.length?cs.map(card).join(''):`<div class="empty">Drop here</div>`}</div></div>`}).join('');
+  $('#board').innerHTML=COLS.map(([k,label])=>{const cs=vis.filter(t=>colOf(t.s)===k);return `<div class="col" data-col="${k}"><header><span class="dot" style="background:var(--${k})"></span><h3>${label}</h3><span class="n">${cs.length}</span></header><div class="cards">${cs.length?cs.map(card).join(''):`<div class="empty">Solte aqui</div>`}</div></div>`}).join('');
   $$('.card').forEach(c=>{c.onclick=()=>openTask(c.dataset.id);c.ondragstart=e=>{e.dataTransfer.setData('text',c.dataset.id);c.classList.add('drag')};c.ondragend=()=>c.classList.remove('drag')});
-  $$('.col').forEach(col=>{col.ondragover=e=>{e.preventDefault();col.classList.add('over')};col.ondragleave=()=>col.classList.remove('over');col.ondrop=e=>{e.preventDefault();col.classList.remove('over');const id=e.dataTransfer.getData('text');setStatus(id,col.dataset.col);toast('Moved to '+ST[col.dataset.col])}});
+  $$('.col').forEach(col=>{col.ondragover=e=>{e.preventDefault();col.classList.add('over')};col.ondragleave=()=>col.classList.remove('over');col.ondrop=e=>{e.preventDefault();col.classList.remove('over');const id=e.dataTransfer.getData('text');setStatus(id,col.dataset.col);toast('Movida para '+ST[col.dataset.col])}});
 }
-function card(t){return `<div class="card ${t.s}" draggable="true" data-id="${t.id}" style="--c:var(--${t.s})"><div class="t">${esc(t.t)}</div><div class="m"><span class="tag">${esc(t.group)}</span>${t.s==='verify'?`<span class="tag" style="color:var(--verify)">verify</span>`:''}${t.flag?`<span class="tag flag">${esc(t.flag)}</span>`:''}${t.pri?`<span class="tag pri">${esc(t.pri)}</span>`:''}${t.note?`<span class="tag note">note</span>`:''}</div></div>`}
+function card(t){return `<div class="card ${t.s}" draggable="true" data-id="${t.id}" style="--c:var(--${t.s})"><div class="t">${esc(t.t)}</div><div class="m"><span class="tag">${esc(t.group)}</span>${t.s==='verify'?`<span class="tag" style="color:var(--verify)">conferir</span>`:''}${t.flag?`<span class="tag flag">${esc(t.flag)}</span>`:''}${t.pri?`<span class="tag pri">${esc(t.pri)}</span>`:''}${t.note?`<span class="tag note">nota</span>`:''}</div></div>`}
 function setStatus(id,s){over[id]={...(over[id]||{}),s};SV('over',over);render();if(cur===id)openTask(id)}
 function addTask(){
   const g=filt==='all'?P.groups[0].title:filt; const id='a'+Date.now();
-  added.push({id,group:g,gi:groupNames().indexOf(g),t:'New task',s:'next'});SV('added',added);render();openTask(id);setTimeout(()=>{$('#d-t').focus();$('#d-t').select()},250);
+  added.push({id,group:g,gi:groupNames().indexOf(g),t:'Nova tarefa',s:'next'});SV('added',added);render();openTask(id);setTimeout(()=>{$('#d-t').focus();$('#d-t').select()},250);
 }
 // drawer
 let cur=null;
@@ -349,24 +349,24 @@ const close=()=>{document.body.classList.remove('open');$('#drawer').setAttribut
 $('#d-close').onclick=close; $('#scrim').onclick=close; document.addEventListener('keydown',e=>{if(e.key==='Escape')close()});
 $('#d-note').oninput=e=>{if(!cur)return;over[cur]={...(over[cur]||{}),note:e.target.value};SV('over',over);render()};
 $('#d-t').onchange=e=>{if(!cur)return;over[cur]={...(over[cur]||{}),t:e.target.value};SV('over',over);render();$('#d-title').textContent=e.target.value};
-$('#d-del').onclick=()=>{if(!cur||!confirm('Remove this task from your board?'))return;removed.push(cur);SV('removed',removed);close();render();toast('Removed')};
+$('#d-del').onclick=()=>{if(!cur||!confirm('Remover esta tarefa do seu quadro?'))return;removed.push(cur);SV('removed',removed);close();render();toast('Removida')};
 
 // export
 $('#export').onclick=async()=>{
   const payload={updated:new Date().toISOString().slice(0,10),overrides:over,added,removed};
   const s=JSON.stringify(payload,null,2);
-  try{await navigator.clipboard.writeText(s);toast('Copied. Paste it to Claude to commit.')}catch(e){prompt('Copy this:',s)}
+  try{await navigator.clipboard.writeText(s);toast('Copiado. Cola no chat para eu commitar.')}catch(e){prompt('Copia isto:',s)}
 };
 
 // research
 $('#stepper').innerHTML=P.stages.map((s,i)=>`<div class="step ${i<P.articleStage?'done':i===P.articleStage?'cur':''}"><b>E${i}</b>${esc(s)}</div>`).join('');
 $('#pillars').innerHTML=P.pillars.map((p,i)=>`<div class="pillar"><div class="n">${i+1}</div><h4>${esc(p.name)}</h4><p>${esc(p.sources)}</p><p class="st">${esc(p.state)}</p></div>`).join('');
-$('#sources tbody').innerHTML=P.sources.map(s=>`<tr><td>${esc(s.ref)}${s.warn?' <span class="tag flag">check</span>':''}</td><td class="mono">${esc(s.file)}</td><td>${s.project?'<span class="no">project</span>':s.cited?'<span class="yes">yes</span>':'<span class="no">no</span>'}</td><td><a class="open" href="${drive(s.id)}" target="_blank" rel="noopener">Open ↗</a></td></tr>`).join('');
+$('#sources tbody').innerHTML=P.sources.map(s=>`<tr><td>${esc(s.ref)}${s.warn?' <span class="tag flag">conferir</span>':''}</td><td class="mono">${esc(s.file)}</td><td>${s.project?'<span class="no">projeto</span>':s.cited?'<span class="yes">sim</span>':'<span class="no">não</span>'}</td><td><a class="open" href="${drive(s.id)}" target="_blank" rel="noopener">Abrir ↗</a></td></tr>`).join('');
 $('#missing').innerHTML=P.missing.map(m=>`<span>${esc(m)}</span>`).join('');
-$('#imgs tbody').innerHTML=P.images.map(i=>`<tr><td class="mono">${esc(i.file)}</td><td>${esc(i.what)}</td><td><a class="open" href="${drive(i.id)}" target="_blank" rel="noopener">Open ↗</a></td></tr>`).join('');
+$('#imgs tbody').innerHTML=P.images.map(i=>`<tr><td class="mono">${esc(i.file)}</td><td>${esc(i.what)}</td><td><a class="open" href="${drive(i.id)}" target="_blank" rel="noopener">Abrir ↗</a></td></tr>`).join('');
 
 // figures
-$('#figs').innerHTML=P.figures.map(f=>`<div class="fig"><div class="n">${f.n}</div><h4>${esc(f.title)}</h4><div class="src mono">${esc(f.file)}</div><div class="foot"><span class="st ${f.state}">${f.state}</span><a class="open" href="${drive(f.id)}" target="_blank" rel="noopener">Open ↗</a></div></div>`).join('');
+$('#figs').innerHTML=P.figures.map(f=>`<div class="fig"><div class="n">${f.n}</div><h4>${esc(f.title)}</h4><div class="src mono">${esc(f.file)}</div><div class="foot"><span class="st ${f.state}">${f.state}</span><a class="open" href="${drive(f.id)}" target="_blank" rel="noopener">Abrir ↗</a></div></div>`).join('');
 
 // direction
 let gate=LS('gate')||{};
@@ -374,13 +374,13 @@ function renderGate(){
   $('#gate').innerHTML=P.gate.map(([id,name,desc])=>`<label class="g ${gate[id]?'ok':''}"><input type="checkbox" data-g="${id}" ${gate[id]?'checked':''}><span class="id">${id}</span><span><b>${esc(name)}</b><small>${esc(desc)}</small></span></label>`).join('');
   $$('#gate input').forEach(i=>i.onchange=()=>{gate[i.dataset.g]=i.checked;SV('gate',gate);renderGate()});
   const ok=P.gate.filter(g=>gate[g[0]]).length, v=$('#verdict'); v.className='verdict '+(ok===P.gate.length?'pass':ok?'fail':'');
-  v.firstElementChild.textContent=ok===P.gate.length?'PASS. Reference may inform the sculpt.':ok?`${ok} of ${P.gate.length}. One failure rejects the output.`:'Tick each check against the WIP';
+  v.firstElementChild.textContent=ok===P.gate.length?'PASSOU. A referência pode informar o sculpt.':ok?`${ok} de ${P.gate.length}. Uma falha rejeita a referência.`:'Marque cada item contra o WIP';
 }
 $('#gatereset').onclick=()=>{gate={};SV('gate',gate);renderGate()};
 renderGate();
 $('#locked').innerHTML=P.locked.map(([k,v])=>`<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join('');
 $('#pipe').innerHTML=P.pipeline.map(p=>`<span>${esc(p)}</span>`).join('');
-$('#links').innerHTML=`<a class="open" href="${P.drive}" target="_blank" rel="noopener">Drive folder ↗</a><a class="open" href="${P.repo}" target="_blank" rel="noopener">Repository ↗</a><a class="open" href="${P.repo}/docs/article/designing-emirati-characters.md" target="_blank" rel="noopener">Article ↗</a><a class="open" href="${P.repo}/docs/reference/drive-index.md" target="_blank" rel="noopener">Drive index ↗</a>`;
+$('#links').innerHTML=`<a class="open" href="${P.drive}" target="_blank" rel="noopener">Pasta do Drive ↗</a><a class="open" href="${P.repo}" target="_blank" rel="noopener">Repositório ↗</a><a class="open" href="${P.repo}/docs/article/designing-emirati-characters.md" target="_blank" rel="noopener">Artigo ↗</a><a class="open" href="${P.repo}/docs/reference/drive-index.md" target="_blank" rel="noopener">Índice do Drive ↗</a>`;
 
 render();
 })();
