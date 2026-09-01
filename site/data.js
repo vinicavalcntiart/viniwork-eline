@@ -2,6 +2,19 @@
 // Edit this file to update the site. Status values: done | active | next | blocked | waiting | verify
 window.PROJECT = {
   updated: "2026-09-01",
+  deadlineISO: "2026-10-01",
+  articleStage: 5,
+  stages: ["Martino + Creswell + Merriam","Bullets in Portuguese","Verify all references","Send for approval","Wait for approval","Write English, APA 7","Protocolo checagem","Correct all flags","Approval","Advance"],
+  gate: [
+    ["G1","Nasal profile","Straight bridge, no hump or concavity, narrow alar base, pointed tip. Legible at stylization level."],
+    ["G2","Eye construction","Large almond, defined outer corner, constructed eyelid rim, socket depth present."],
+    ["G3","Face shape","Oval to round. Not angular. Jaw does not dominate."],
+    ["G4","Skin tone","Warm light-medium. Yellow present, not dominant. Not darkened toward generic MENA."],
+    ["G5","Burqa, when present","Rigid golden mask, falcon read, covers nose, mouth and chin. Eyes and cheekbones visible."],
+    ["G6","Dress","Documented palette and pattern language. No orientalist generic costume."],
+    ["G7","Aging, older variants","Aging distributes around the nose, never across it."],
+    ["G8","Stylization ceiling","Does not read more realistic than the approved UAE Female."],
+  ],
   deadline: "Before October 2026",
   drive: "https://drive.google.com/drive/folders/1fuf5EL2fl3Z_0pIhtapwFMalTcG7BDKf",
   repo: "https://github.com/vinicavalcntiart/viniwork-eline/tree/claude/uae-character-project-r0w45n",
