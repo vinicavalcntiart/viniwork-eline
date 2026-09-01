@@ -1,0 +1,53 @@
+# UAE Character Project — Endstar
+
+Working repository for the UAE character pipeline on **Endstar** (E-Line Media / Endless Studios).
+
+**Art Lead:** Vinícius Vieira Cavalcanti
+**Creative Director:** Daniel (final approval authority on all character work)
+**Creative Director, Endstar:** Colin Morrison
+
+---
+
+## Authority hierarchy
+
+```
+Cavalcanti (2026) article
+        ↓
+UAE Character Art Direction Manual
+        ↓
+Production decisions (sculpt, texture, rig)
+```
+
+Anything outside the article's evidence base is marked `[EXTENSION]`. Anything the
+evidence base does not answer is marked `[NEEDS EVIDENCE]` and researched before
+production, never improvised.
+
+---
+
+## Contents
+
+| Path | What it holds |
+|---|---|
+| `docs/process/` | Production process documents |
+| `docs/manual/` | UAE Character Art Direction Manual source and build |
+| `docs/article/` | Article drafts, stage notes, reference verification |
+| `reference/` | Verified reference boards and research briefs |
+
+### Process documents
+
+- [UAE Character Reference Workflow](docs/process/uae-character-reference-workflow.md)
+  Freepik 2D → Tripo AI 3D → manual sculpt. Includes the eight-check Cultural
+  Verification Gate that every reference output must pass.
+
+---
+
+## Status
+
+**Delivered to SVN:** UAE Very Old Female (elder) and UAE Young Female (18), with
+high poly, low poly, LODs, rigging, three texture variants for the elder and two
+for the young.
+
+**Open action:** adjust the elder's head cover so it meets approximately the top
+of the mask.
+
+**Next cycle:** UAE male characters.
