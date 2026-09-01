@@ -275,8 +275,9 @@ const drive=id=>`https://drive.google.com/file/d/${id}/view`;
 const ST={blocked:'Travada',next:'Próxima',active:'Em andamento',waiting:'Esperando',verify:'Conferir',done:'Feita'};
 const COLS=[['blocked','Travadas'],['next','Próximas'],['active','Em andamento'],['waiting','Esperando / conferir'],['done','Feitas']];
 const colOf=s=>s==='verify'?'waiting':s;
-const LS=k=>{try{return JSON.parse(localStorage.getItem('uae.'+k))}catch(e){return null}};
-const SV=(k,v)=>{try{localStorage.setItem('uae.'+k,JSON.stringify(v))}catch(e){}};
+const NS='uae.v'+(P.version||1)+'.';
+const LS=k=>{try{return JSON.parse(localStorage.getItem(NS+k))}catch(e){return null}};
+const SV=(k,v)=>{try{localStorage.setItem(NS+k,JSON.stringify(v))}catch(e){}};
 let over=LS('over')||{}, added=LS('added')||[], removed=LS('removed')||[], filt=LS('filt')||'all', q='';
 const toast=m=>{const t=$('#toast');t.textContent=m;t.classList.add('on');setTimeout(()=>t.classList.remove('on'),1800)};
 
@@ -306,16 +307,14 @@ function render(){
   $('#chars').innerHTML=P.characters.map(c=>`<div class="ch ${c.status}"><span class="pill" style="color:var(--${c.status});background:color-mix(in srgb,var(--${c.status}) 14%,transparent)">${ST[c.status]}</span><div class="r">${esc(c.role)}</div><h4>${esc(c.name)}</h4><p>${esc(c.note)}</p></div>`).join('');
   // kpis
   const n=s=>all.filter(t=>t.s===s).length, tot=all.length, done=n('done');
-  const male=all.filter(t=>t.gi===0), mdone=male.filter(t=>t.s==='done').length;
-  const art=all.filter(t=>t.group.startsWith('Artigo')), adone=art.filter(t=>t.s==='done').length;
   $('#kpis').innerHTML=`
-    <div class="kpi hi"><div class="lbl">Em andamento</div><div class="val">${n('active')}</div><div class="sub">${n('blocked')} travadas · ${n('next')} próximas</div></div>
-    <div class="kpi"><div class="lbl">Sprint 15 set</div><div class="val">${mdone}<span style="font-size:1rem;color:var(--ink2)"> / ${male.length}</span></div><div class="bar"><i style="width:${male.length?100*mdone/male.length:0}%"></i></div></div>
-    <div class="kpi"><div class="lbl">Artigo</div><div class="val">${adone}<span style="font-size:1rem;color:var(--ink2)"> / ${art.length}</span></div><div class="bar"><i style="width:${art.length?100*adone/art.length:0}%"></i></div></div>
-    <div class="kpi"><div class="lbl">Tudo</div><div class="val">${done}<span style="font-size:1rem;color:var(--ink2)"> / ${tot}</span></div><div class="bar"><i style="width:${tot?100*done/tot:0}%"></i></div></div>`;
+    <div class="kpi hi"><div class="lbl">Entrega 15 set</div><div class="val">${done}<span style="font-size:1rem;color:var(--ink2)"> / ${tot}</span></div><div class="bar"><i style="width:${tot?100*done/tot:0}%"></i></div></div>
+    <div class="kpi"><div class="lbl">Em andamento</div><div class="val">${n('active')}</div><div class="sub">arraste um card para cá quando começar</div></div>
+    <div class="kpi"><div class="lbl">Travadas</div><div class="val" style="color:${n('blocked')?'var(--blocked)':'inherit'}">${n('blocked')}</div><div class="sub">${n('blocked')?'precisa do Daniel ou de pesquisa':'nada travado'}</div></div>`;
   // filters
   const gs=groupNames();
-  $('#filters').innerHTML=`<button class="chip" data-f="all" aria-pressed="${filt==='all'}">Todas</button>`+gs.map(g=>`<button class="chip" data-f="${esc(g)}" aria-pressed="${filt===g}">${esc(g)}</button>`).join('')+`<button class="pbtn gold" id="add">+ Tarefa</button><label class="search"><span style="color:var(--ink3)">⌕</span><input id="q" placeholder="Buscar tarefas" value="${esc(q)}"></label>`;
+  if(gs.length<2) filt='all';
+  $('#filters').innerHTML=(gs.length<2?'':`<button class="chip" data-f="all" aria-pressed="${filt==='all'}">Todas</button>`+gs.map(g=>`<button class="chip" data-f="${esc(g)}" aria-pressed="${filt===g}">${esc(g)}</button>`).join(''))+`<button class="pbtn gold" id="add">+ Tarefa</button><label class="search"><span style="color:var(--ink3)">⌕</span><input id="q" placeholder="Buscar tarefas" value="${esc(q)}"></label>`;
   $$('#filters .chip').forEach(b=>b.onclick=()=>{filt=b.dataset.f;SV('filt',filt);render()});
   $('#q').oninput=e=>{q=e.target.value;renderBoard(all)};
   $('#add').onclick=addTask;

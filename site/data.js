@@ -1,6 +1,7 @@
 // Monitor do projeto UAE. Edite este arquivo para atualizar o site.
 // Status: done | active | next | blocked | waiting | verify
 window.PROJECT = {
+  version: 3,
   updated: "2026-09-01",
   deadline: "15 de setembro",
   deadlineISO: "2026-09-15",
@@ -28,36 +29,16 @@ window.PROJECT = {
 
   groups: [
     {
-      title: "Sprint · Jovem + Idoso · 15 set",
+      title: "Jovem + Idoso · entrega 15 set",
       tasks: [
-        { t: "Blockout do corpo magro a partir da base aprovada (Jovem)", s: "next" },
+        { t: "Blockout do corpo magro (Jovem)", s: "next" },
         { t: "Blockout do corpo maior (Idoso)", s: "next" },
-        { t: "Cabeça do Jovem: nariz reto primeiro, depois o resto", s: "next" },
-        { t: "Cabeça do Idoso: nariz reto primeiro, envelhecer em volta, conferir o nariz de novo no fim", s: "next" },
-        { t: "Robe branco, sem colarinho, tassel ligado. Mesma mesh nos dois corpos, escalada", s: "next" },
-        { t: "Pano branco + cordão preto como uma mesh de toggle. Acima dos ombros, orelhas cobertas", s: "next" },
-        { t: "Mesh de cabelo do Jovem, cabe dentro do volume do pano", s: "next" },
-        { t: "Pés + sandália numa mesh só, sem dedos", s: "next" },
+        { t: "Cabeças do Jovem e do Idoso. Nariz reto primeiro, envelhecer em volta", s: "next" },
+        { t: "Roupa: robe branco com tassel, pano + cordão em toggle, cabelo do Jovem em toggle, pés com sandália numa mesh", s: "next" },
         { t: "Screenshots do blockout para o Daniel", s: "next" },
-        { t: "Refino + polypaint. Branco no branco: robe e pano se separam pela trama no normal e na roughness", s: "next" },
-        { t: "Retopo, UVs, bake, albedo + mixmap + normal", s: "next" },
-        { t: "Rig, pesos, tassel no peito com falloff suave, teste de pose extrema", s: "next" },
-        { t: "Handoff no SVN, os dois personagens", s: "next" },
-      ]
-    },
-    {
-      title: "Depois · Meia-idade + Velho",
-      tasks: [
-        { t: "Cabeça de meia-idade no corpo do Jovem", s: "waiting" },
-        { t: "Cabeça do Velho no corpo do Idoso", s: "waiting" },
-      ]
-    },
-    {
-      title: "Artigo · parado",
-      tasks: [
-        { t: "Localizar Wang et al. (2015). Fonte pilar, não está no Drive", s: "waiting" },
-        { t: "Confirmar quem analisou o Moana: Ercegovac ou o paper do IJRISS", s: "waiting" },
-        { t: "Ordem das figuras, letras das citações, uma frase quebrada, troca da Figura 2", s: "waiting" },
+        { t: "Refino e polypaint", s: "next" },
+        { t: "Retopo, bake, albedo + mixmap + normal", s: "next" },
+        { t: "Rig, teste de pose extrema, handoff no SVN", s: "next" },
       ]
     },
   ],
