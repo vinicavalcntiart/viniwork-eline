@@ -3,7 +3,8 @@
 Tracks each figure called in [designing-emirati-characters.md](designing-emirati-characters.md):
 what it shows, where the file lives, and what is still open.
 
-Image files go in `docs/article/figures/` using the `fig-NN-slug` naming below.
+Image files live in the project Drive folder, not in this repository. Drive IDs and
+access instructions are in [drive-index.md](../reference/drive-index.md).
 
 ---
 
@@ -12,13 +13,13 @@ Image files go in `docs/article/figures/` using the `fig-NN-slug` naming below.
 | Fig | Subject | File | Status |
 |---|---|---|---|
 | 1 | UAE Female character, full body and close-up | `fig-01-uae-female-full-and-closeup.png` | missing |
-| 2 | Traditional Emirati woman wearing burqa | `fig-02-emirati-woman-burqa.png` | identified, file missing |
+| 2 | Traditional Emirati woman wearing burqa | Drive `14N2F...` or `1X3DK...` | two candidates in Drive |
 | 3 | Shaheen (Tekken 7) and Zafina (Tekken 6) | `fig-03-shaheen-zafina.png` | missing |
 | 4 | Manhattan plots and 3D facial models, Alshehhi GWAS | `fig-04-gwas-manhattan-plots.png` | missing, open access |
 | 5 | UAE Female character, facial detail | `fig-05-uae-female-face-detail.png` | missing |
 | 6 | Freej (2006), the four main characters | `fig-06-freej-four-characters.png` | missing |
 | 7 | UAE Female character, applied design criteria | `fig-07-uae-female-criteria.png` | missing |
-| 8 | Endstar character roster | `fig-08-endstar-roster.png` | candidates identified, files missing |
+| 8 | Endstar character roster | Drive, see index | four candidates, unmapped |
 
 ---
 
@@ -33,26 +34,50 @@ as the mechanism behind the Emirati face recognition advantage. The vertical
 metallic strip sits along the nasal bridge and reads as a hard graphic line
 dividing the visible face.
 
-### Open item, burqa material description
+### Resolved, burqa material description
 
-The photograph shows a burqa in dark cloth with a metallic bronze strip, not the
-shiny gold fabric the article and the Manual both describe. Both readings have
-basis: the traditional cloth is indigo-dyed and its sheen reads gold, bronze or
-near-black depending on the piece, its age, and the light. The current text is
-narrower than the photographic evidence supports.
+An earlier note here flagged a conflict between the article's "shiny gold or metallic
+fabric" and a photograph showing a dark burqa with a bronze strip. `UAEWomans.png` in
+the Drive folder settles it. All four women in that image wear burqas that are plainly
+shiny gold. The article's description is supported.
 
-Two options, and this one is the Art Director's call since it affects the sculpt:
-either widen the article's description to cover the documented range, or state
-explicitly that the gold variant is the one selected for Endstar and say why.
-Leaving the text as-is means the article describes a narrower object than its own
-figure shows.
+The two photographs show two variants of the same garment, not a contradiction: the
+traditional cloth is indigo-dyed and its sheen reads gold, bronze or near-black
+depending on the piece, its age, and the light.
+
+What remains is a figure-text mismatch. The article describes the gold burqa while the
+image currently attached as Figure 2 shows the dark one.
+
+**Recommendation: use `UAEWomans.png` as Figure 2.** It carries all four identity
+markers the article names, in one frame: gold burqa, Abuteela in the documented palette
+of red, green, white and orange with embroidery, black shayla, and gold jewelry. The
+current Figure 2 shows only the burqa, and in the variant the text does not describe.
+
+One caveat. The article's caption for Figure 2 makes a specific argument, that the
+covering frames the face around the nose and drives the Wang et al. (2015) recognition
+advantage. `UAEWomans.png` supports that argument as well as the current image does,
+and carries the dress evidence on top of it. The caption would need light rewriting for
+the plural subject.
 
 ### Open item, image rights
 
-The article currently declares "Original source unknown. Reproduced for academic
-purposes." An unattributed photograph of an identifiable person is a permissions
-risk at submission. Either trace the source, or replace it with an image whose
-licence is documented. `[NEEDS EVIDENCE]`
+Unchanged, and it applies to both candidates. The article declares "Original source
+unknown. Reproduced for academic purposes." `UAEWomans.png` carries a Google Lens
+overlay icon in its corner, so it is a search-result screenshot and its source is
+equally undocumented.
+
+An unattributed photograph of identifiable people is a permissions risk at submission.
+Trace the source, or replace it with an image whose licence is documented.
+`[NEEDS EVIDENCE]`
+
+### Incidental find, Al Sadu
+
+The backdrop in `UAEWomans.png` is a warp-faced textile in narrow vertical bands with
+geometric motifs, in red, black, white and burnt orange. That is the Al Sadu pattern
+language the Manual registers as `[EXTENSION]` for the elder's underdress. It is
+photographic support for the palette and the band structure, though it does not resolve
+the extension flag itself: the flag exists because Al Sadu is tent and camel textile
+rather than garment, and a wall hanging behind a subject is still not a garment.
 
 ---
 

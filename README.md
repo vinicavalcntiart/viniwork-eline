@@ -34,6 +34,8 @@ production, never improvised.
 | `docs/reference/` | Research briefs and cultural evidence base |
 | `source/` | Original files exactly as delivered (.docx, .md) |
 
+Binaries stay in Google Drive. See [drive-index.md](docs/reference/drive-index.md).
+
 Files under `docs/` are the canonical, working versions. Files under `source/`
 are byte-for-byte originals kept for provenance. Where the two differ, the
 difference is em-dash normalization and is recorded in the canonical file's
@@ -55,6 +57,10 @@ header comment and in its commit message.
 
 ### Reference
 
+- [Project Drive Index](docs/reference/drive-index.md)
+  Every file in the project Drive folder: ID, link, and what it is. Source PDFs,
+  the Manual, and reference images live there, not here. Also lists the gaps
+  against the article's reference list.
 - [UAE Cultural Research Brief](docs/reference/uae-cultural-research-brief.md)
   Compiled evidence base: facial features, skin tone, traditional dress, Freej,
   UAE animation industry context, plus the quick-reference checklist for
