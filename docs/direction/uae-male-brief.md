@@ -1,81 +1,75 @@
-# UAE Male, brief from Daniel
+# Male characters, brief and answers
 
 **Date:** 1 September 2026
-**Source:** Slack, plus an annotated Blender screenshot over a placeholder mesh
-**Status:** Direction received, research not started
-**Addendum, same day:** all clothing white; gutra never on the shoulders, always covering the ears.
+**Source:** Daniel on Slack, plus an annotated Blender screenshot
+**Delivery:** Young and Elderly, both complete, by 15 September 2026. Middle and Old later.
 
 ---
 
-## Variants
+## What Daniel asked for
 
-Four age variants on two shared bodies.
+Four ages on two bodies. Young and Middle share the slim body. Old and Elderly share
+the bigger body. Both "for now".
 
-| Variant | Body | Note |
-|---|---|---|
-| Young | Slim | Shares body with Middle "for now" |
-| Middle | Slim | |
-| Old | Bigger | Shares body with Elderly "for now" |
-| Elderly | Bigger | |
+Shared by all four:
 
-"For now" in both lines. Read that as: two bodies is the starting point, not a promise
-that it stays two.
+- All clothing white
+- Robe with no collar, tassel at the front
+- White head cloth with black cord, on a toggle. Never resting on the shoulders.
+  Always covering the ears.
+- Hair on a toggle
+- Feet and sandals as one mesh, no separate toes
 
-## Shared across all four
+## Answers from the evidence
 
-- Body, head, hands as the core asset
-- **All clothing white.** Kandura and gutra, no colour anywhere in the garment.
-- **Gutra never rests on the shoulders and always covers the ears.** Fit rule, not a
-  style option. Applies in every pose the rig reaches.
-- Kandura with **no collar**
-- **Emirati tarboosh tassel**, on a toggle
-- **Gutra + agal**, on a toggle
-- **Hair**, on a toggle
-- **No separate toes**. Feet and sandals read as one mesh.
+All from Khalaf (2005), *National dress and the construction of Emirati cultural
+identity*, the paper in the Drive folder. Page references are to the OCR export.
 
-## What the annotations say, in the order they appear on the sketch
+**The tassel stays on by default.** Khalaf: "The low cut collar and the tarbusha
+(braided tassel) decorating the front of the kandoura are markedly Emirati." It is what
+separates the Emirati robe from the Saudi one and the northern Gulf one at a glance. A
+toggle can exist, but the on state is the character. Off is a special case.
 
-1. Gutra + agal, toggle
-2. Young / middle age / old / elderly, written beside the head
-3. Hair toggle
-4. Head
-5. Emirati tarboosh tassel, toggle
-6. NO COLLAR
-7. Body, head, hands
-8. Slim / Fat
-9. No separate toes
+**Young without the head cloth is documented.** Khalaf lists three things young men
+do: wear the cloth folded round the head as a loose turban with no cord, swap it for a
+baseball cap, or drop the headdress entirely. So the Young variant with hair showing
+and no cloth is inside the evidence, and so is a folded-turban option if Daniel ever
+wants a third state. The elder wears cloth and cord.
+
+**Sandals, confirmed.** "Sandals are every Emirati man's footwear." One mesh, no toes,
+as Daniel drew it.
+
+**Cloak is out.** Khalaf places the dark gold-trimmed cloak at weddings, on the groom
+and his male family, and on sheikhs and VIPs in public. It is ceremonial and status
+wear, not what an ordinary elder wears day to day. Not building it.
+
+**Robe colour.** Usually white, occasionally beige, dark shades in winter. Daniel said
+white. White it is, and Khalaf supports white as the default.
+
+**Subtle embroidery exists.** Khalaf: the robe "can be elegantly and subtly
+embroidered". With an all-white palette that is a normal-map detail at the collar line
+and front opening, not an albedo one.
+
+## The one gap
+
+**Beard.** Khalaf does not discuss it. Neither does anything else in the folder. From
+observation, not from a source: elderly Emirati men very commonly wear a full beard,
+often white or grey, and it carries a large part of the age read. Young men range from
+clean to trimmed.
+
+Recommendation: Elderly gets a full white beard sculpted into the head. Young gets
+none. Mark it `[EXTENSION]` in the handoff and let Daniel react to it in the blockout
+screenshot rather than asking beforehand.
 
 ## Pipeline reading
 
-Toggles on the Endstar rig mean separate meshes switched in engine. No shape keys, so
-hair and gutra are two meshes that both have to sit on the same scalp volume without
-one clipping through the other in either state. The tassel is a hanging element on a
-rig with no skirt bones and no corrective smooth, so it either rides on an existing
-bone or gets weighted to the chest with a soft falloff and tested on extreme poses
-before handoff.
-
-Two bodies, four heads. The asset reuse rule applies: each head is sculpted from the
-approved base, *sallat al saif* first and locked, then the age pass around it.
-
-## Open questions for Daniel
-
-Not asked yet. Listed so they go into one message, not three.
-
-- **Tassel default.** The collarless cut with the tassel is what makes a kandura read
-  Emirati rather than Saudi or Omani. If the toggle defaults to off, the character loses
-  the marker. Proposal: default on, toggle exists for a reason we name.
-- **Beard.** Old and Elderly Emirati men read through a white or grey beard as much as
-  through the face. Hair is on a toggle; beard is not mentioned. Is it a toggle, baked
-  into the head, or absent?
-- **Bisht.** The dark cloak with gold trim is elder and formal wear. Not in the brief.
-  Confirm it is out of scope so no one sculpts it.
-
-## Evidence base
-
-Khalaf (2005) covers men's national dress directly, kandura and gutra included. That is
-the source to consult before any reference generation. Alshehhi et al. (2025) ran on 89
-men and 83 women, so the facial morphology data holds for the male heads.
-
-`[NEEDS EVIDENCE]` on age-specific conventions: whether elder men wear the gutra
-differently, whether the agal is dropped with age, and what the young variant does when
-hair is on and gutra is off. Research before improvising, per rule R3.
+- Head cloth off the shoulders and over the ears is close to a rigid shell on the
+  skull. Weight it almost entirely to the head bone. The draped-cloth problem is gone.
+- The tassel is the only hanging element. Weight it to the chest with a soft falloff and
+  put it in the extreme pose test.
+- Hair and head cloth are two meshes on the same scalp. Neither may clip the other in
+  either toggle state.
+- All white means the robe and the head cloth separate by weave, in the normal map and
+  in mixmap roughness, not in albedo. Decide the two weaves in polypaint, not in texture.
+- Two bodies, four heads, straight nose sculpted first and locked on every head. On the
+  Elderly the age pass goes around the nose, and the nose gets checked again after.
