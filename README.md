@@ -36,6 +36,7 @@ Edit `site/data.js` to update tasks, sources, and figures. The page renders from
 | Path | What it holds |
 |---|---|
 | `docs/article/` | The article and its supporting contextual report |
+| `docs/direction/` | Briefs and decisions from Daniel, dated |
 | `docs/manual/` | UAE Character Art Direction Manual source and build |
 | `docs/process/` | Production process documents |
 | `docs/reference/` | Research briefs and cultural evidence base |
@@ -85,4 +86,4 @@ for the young.
 **Open action:** adjust the elder's head cover so it meets approximately the top
 of the mask.
 
-**Next cycle:** UAE male characters.
+**Current cycle:** UAE male characters. Four age variants on two bodies. Brief in [docs/direction/uae-male-brief.md](docs/direction/uae-male-brief.md).
