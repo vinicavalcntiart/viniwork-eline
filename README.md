@@ -39,6 +39,14 @@ production, never improvised.
   Freepik 2D → Tripo AI 3D → manual sculpt. Includes the eight-check Cultural
   Verification Gate that every reference output must pass.
 
+### Article
+
+- [Designing Emirati Characters: Evidence-Based Criteria for Stylized 3D Games](docs/article/designing-emirati-characters.md)
+  Full manuscript (Cavalcanti, 2026). Sole authority source for the Manual.
+- [Endstar Contextual Report](docs/article/endstar-contextual-report.md)
+  Platform definition, visual system, and UAE market context. Citation support
+  for the article's non-peer-reviewed platform claims.
+
 ---
 
 ## Status
