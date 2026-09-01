@@ -51,6 +51,9 @@ window.PROJECT = {
     {
       title: "Female cycle, closing",
       tasks: [
+        { t: "UAE Female master reference, approved, live demo with dialogue", s: "done" },
+        { t: "UAE Very Old Female delivered to SVN, three texture variants", s: "done" },
+        { t: "UAE Young Female (18) delivered to SVN, two texture variants", s: "done" },
         { t: "Elder head cover continuity up to the top of the mask", s: "verify", why: "Daniel's single open note. Confirm it went into the delivered build." },
       ]
     },
