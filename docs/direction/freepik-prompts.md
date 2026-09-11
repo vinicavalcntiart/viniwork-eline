@@ -75,24 +75,26 @@ branco.
 
 ---
 
-## Masculino Jovem · iteração 2 · dobras e barba · 11 set 2026
+## Masculino Jovem · iteração 2 · dobras, barba, idade · 11 set 2026
 
 Anchor: a saída da iteração 1 (busto 3/4 vestido), citada como @img1.
 O que a iteração 1 acertou: nariz longo e descendente, pescoço fino, orelhas
 cobertas, pano fora dos ombros, cordão duplo, sem colarinho, tassel, bordado
 tom sobre tom. Tudo isso fica.
 
-O que muda: o pano lê como chapa lisa de espessura uniforme, e a barba saiu
-em tufos de pelo em vez da massa gráfica limpa do blockout. As duas mudanças
-puxam em direções opostas de propósito, pano com lógica de material real,
-barba como forma simplificada. É o mesmo equilíbrio da UAE Female aprovada.
+O que muda: o pano lê como chapa lisa, a barba saiu em tufos de pelo em vez
+de massa gráfica, e o rosto lê uns quarenta anos. Barba curta é o que mais
+puxa para vinte. Barba curta no jovem não está nas fontes da pasta, vai como
+extensão no handoff, junto com a barba branca do Idoso.
 
 ```
-Same character, same pose, same three-quarter bust framing, same head covering, same robe, same face, same lighting and background as @img1. Change only two things.
+Same character, same pose, same three-quarter bust framing, same head covering, same robe, same nose, same lighting and background as @img1. Change only three things.
 
 CLOTH: the white head cloth behaves like real lightweight cotton instead of a smooth uniform sheet. The fabric gathers and bunches under the black cord band, with soft pleats radiating outward from the crown. The two front panels hang with visible weight, a few long soft folds running down their length, and the lower edges curl slightly inward. The fabric edge is thin. Where the cloth passes over the shoulders of the robe it creases naturally. The robe shows soft tension folds from the shoulder toward the chest opening. Fabric still reads clean and simplified, no noisy micro-wrinkles, but every fold follows gravity and the shape underneath.
 
-BEARD: the beard is a single clean sculpted mass with a sharp graphic silhouette, built from three or four large simplified clumps with smooth surfaces and crisp edges. No individual hair strands, no fur texture, no fluffy or soft clumping. The moustache is one clean shape that connects into the beard. Same dark color, same overall size and coverage as @img1, only the treatment changes, from fur to sculpted graphic form. Eyebrows get the same treatment, two clean simplified shapes.
+BEARD: a short, closely trimmed beard that follows the jawline, much shorter than in @img1, sculpted as one clean graphic mass with a sharp silhouette and smooth surface. No individual hair strands, no fur texture, no fluffy clumps. The moustache is a thin clean shape connecting into it. Eyebrows are two clean simplified shapes, lighter and less heavy than in @img1.
+
+AGE: the face reads clearly as a man of about twenty. Fuller, rounder cheeks with more soft volume over the cheekbones, smooth simple planes with no hollows under the cheekbones, a softer and slightly narrower jaw, eyes more open with the upper eyelid lifted, a lighter brow ridge, smooth skin with no lines anywhere. The nose stays exactly as in @img1, long, straight bridge, pointed tip angling down, narrow base.
 
 Everything else stays exactly as in @img1. ZBrush sculpt screenshot look, matte clay with polypaint, flat neutral grey background. Bust only, one single figure, no text.
 ```
