@@ -24,6 +24,17 @@ tassel placement.
   first note without spelling it out. Eye size was not the problem, iris
   exposure was.
 - Brows thinner and more arched.
+- More anatomy across the whole face. Orbital rim, zygomatic plane, philtrum,
+  chin, neck tendons all present as planes. Vini's pass was smoother and rounder.
+  Daniel's is still stylized, but the structure underneath reads.
+
+**Calibration note.** The Endstar baseline is "real structural foundation and
+stylized plastic quality". The male first pass had the plastic quality and lost the
+foundation. Every element that read Disney, smooth planes, round cheeks, exposed
+iris, short nose, was a loss of structure, not an excess of it. The advice in this
+project to push toward stylization when a face reads realistic was calibrated
+against the wrong failure for the male. For the male heads the correction runs
+the other way: more anatomy underneath, same stylization on top.
 - No beard on the Young. Clean-shaven. Face reads seventeen to eighteen.
 - Face and neck slimmer.
 - Neckline flat, no band, no embroidery. One vertical line for the buttoned

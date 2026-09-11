@@ -64,6 +64,14 @@ Recommendation: Elderly gets a full white beard sculpted into the head. Young ge
 none. Mark it `[EXTENSION]` in the handoff and let Daniel react to it in the blockout
 screenshot rather than asking beforehand.
 
+## Calibration, 11 Sep
+
+Daniel's sculpt over the Young bust brought more anatomy, not less. Orbital rim,
+cheek plane, philtrum, neck tendons. The first pass read Disney because it lost
+structure, not because it had too much. Male heads: same stylization as the
+approved Female on top, more anatomical foundation underneath than the first pass
+had. Iris partly covered by the upper lid.
+
 ## Pipeline reading
 
 - Head cloth off the shoulders and over the ears is close to a rigid shell on the

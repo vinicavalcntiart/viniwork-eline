@@ -94,7 +94,7 @@ window.PROJECT = {
   locked: [
     ["Nariz", "Reto, base estreita, ponta descendente. Envelhecimento em volta, nunca por cima."],
     ["Olhos", "Amendoados grandes, canto externo definido, rim da pálpebra construído, profundidade de órbita. Pálpebra superior cobre o topo da íris. Íris inteira exposta lê Disney. Daniel, 11 set."],
-    ["Rosto", "Oval a redondo. Mandíbula não domina. Maçãs presentes, não exageradas."],
+    ["Rosto", "Oval a redondo. Mandíbula não domina. Maçãs presentes, não exageradas. Estrutura embaixo: rim da órbita, plano da maçã, filtro, tendão do pescoço. Liso demais lê Disney. Daniel, 11 set."],
     ["Pele", "Mais clara do que se assume para a região, Daniel confirmou ao vivo. Amarelo presente, nunca dominante."],
     ["Shayla", "Preto fosco puro. Zero brilho."],
     ["Burqa", "Máscara dourada rígida sobre nariz e boca, olhos e maçãs visíveis."],
