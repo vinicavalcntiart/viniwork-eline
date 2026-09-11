@@ -2,6 +2,9 @@
 
 Reference generation only. Nothing from here enters a deliverable.
 Anchor toggle "Prompt com IA" stays OFF, always.
+
+11 set: bloco GARMENT corrigido em todos os prompts. Sem bordado, sem faixa na
+gola, só costura. Daniel. Saídas geradas antes disso têm a gola errada.
 O anchor tem que ser citado inline no texto como @img1, senao o gerador ignora
 o desenho ancorado e devolve personagem generico.
 
@@ -22,7 +25,7 @@ Tight bust portrait, three-quarter view, single male character, the same charact
 
 HEAD COVERING: a plain pure white cloth draped over the head, falling straight down at both sides so it completely covers and hides both ears, held in place by a thick black double rope band circling the crown. The cloth ends around the jawline and hangs forward, clear of the shoulders, with visible empty space between the cloth and the shoulder line. The cloth never rests on the shoulders and never drapes over them. No hair visible anywhere.
 
-GARMENT: a plain pure white robe, visible only at the upper chest in this crop. No collar of any kind, a plain round neckline with a short vertical buttoned opening at the center of the chest. A slim white braided cord tassel hangs from the neckline down the center of that opening. Subtle tone-on-tone white embroidery along the neckline and the opening edges, raised surface relief, not flat engraved lines.
+GARMENT: a plain pure white robe, visible only at the upper chest in this crop. A flat round-cut neckline with no collar and no standing band of any kind, lying flat against the neck. A short vertical buttoned opening at the center of the chest with three small fabric-covered buttons. A slim white braided cord tassel hangs from a loop at the top button down the center of that opening. No embroidery anywhere. The only surface detail is top-stitching: several parallel rows of stitching run vertically along both edges of the buttoned opening and converge into a point below it, and a single stitched seam line runs diagonally from each side of the neckline out to the shoulder seam. Stitching reads as fine raised lines in the fabric, not decoration.
 
 FACE: keep the same face, beard shape, eyebrows, eyes and skin tone as @img1. Change only these two things. First, the nose is longer from bridge to tip, with a straight bridge, a pointed tip angling downward so the underside is visible, and a narrow nostril base, not a short rounded button nose. Second, the neck is slimmer, about three quarters of the jaw width, the neck muscles read as one smooth plane instead of separate ropes, and the shoulders slope down rather than squaring off. Lean build, not muscular.
 
@@ -51,7 +54,7 @@ Tight bust portrait, three-quarter view, single elderly male character, the same
 
 HEAD COVERING: a plain pure white cloth draped over the head, falling straight down at both sides so it completely covers and hides both ears, held in place by a thick black double rope band circling the crown. The cloth ends around the jawline and hangs forward, clear of the shoulders, with visible empty space between the cloth and the shoulder line. The cloth never rests on the shoulders and never drapes over them. No hair visible anywhere.
 
-GARMENT: a plain pure white robe, visible only at the upper chest in this crop. No collar of any kind, a plain round neckline with a short vertical buttoned opening at the center of the chest. A slim white braided cord tassel hangs from the neckline down the center of that opening. Subtle tone-on-tone white embroidery along the neckline and the opening edges, raised surface relief, not flat engraved lines.
+GARMENT: a plain pure white robe, visible only at the upper chest in this crop. A flat round-cut neckline with no collar and no standing band of any kind, lying flat against the neck. A short vertical buttoned opening at the center of the chest with three small fabric-covered buttons. A slim white braided cord tassel hangs from a loop at the top button down the center of that opening. No embroidery anywhere. The only surface detail is top-stitching: several parallel rows of stitching run vertically along both edges of the buttoned opening and converge into a point below it, and a single stitched seam line runs diagonally from each side of the neckline out to the shoulder seam. Stitching reads as fine raised lines in the fabric, not decoration.
 
 NOSE, UNCHANGED BY AGE: the nose keeps exactly the same shape as a young adult, long from bridge to tip, straight bridge, pointed tip angling downward so the underside is visible, narrow nostril base. The nose is not widened, not bulbous, not drooping, and carries no age detail on its surface. It stays the cleanest form in the face.
 

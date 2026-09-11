@@ -31,10 +31,10 @@ window.PROJECT = {
     {
       title: "Jovem + Idoso · entrega 15 set",
       tasks: [
-        { t: "Cabeças do Jovem e do Idoso. Nariz reto primeiro, envelhecer em volta", s: "active", why: "Jovem enviado ao Daniel 11 set, já com nariz longo, pescoço fino, pano, cordão e robe. Aguardando retorno. Idoso ainda por fazer." },
+        { t: "Cabeças do Jovem e do Idoso. Nariz reto primeiro, envelhecer em volta", s: "active", why: "Daniel 11 set: rosto sem nota. Barba mais redonda em U na mandíbula, sem ponta no queixo. Idoso ainda por fazer." },
         { t: "Blockout do corpo magro (Jovem)", s: "next" },
         { t: "Blockout do corpo maior (Idoso)", s: "next" },
-        { t: "Roupa: robe branco com tassel, pano + cordão em toggle, cabelo do Jovem em toggle, pés com sandália numa mesh", s: "active", why: "Robe, pano e cordão blocados no busto do Jovem, 11 set." },
+        { t: "Roupa: robe branco com tassel, pano + cordão em toggle, cabelo do Jovem em toggle, pés com sandália numa mesh", s: "active", why: "Daniel 11 set: tirar a faixa da gola e o bordado. Gola redonda chata, botões, tassel, e só costura: filas na abertura fechando em ponta, linhas diagonais até o ombro." },
         { t: "Screenshots do blockout para o Daniel", s: "next" },
         { t: "Refino e polypaint", s: "next" },
         { t: "Retopo, bake, albedo + mixmap + normal", s: "next" },
@@ -100,7 +100,7 @@ window.PROJECT = {
     ["Burqa", "Máscara dourada rígida sobre nariz e boca, olhos e maçãs visíveis."],
     ["Vestido da idosa", "Faixas Al Sadu, vermelho / preto / branco / laranja queimado. [EXTENSÃO]"],
     ["Joia", "Ouro escuro envelhecido, igual à UAE Female aprovada."],
-    ["Roupa masculina", "Toda branca. Robe sem colarinho, tassel ligado. Daniel, 1 set 2026."],
+    ["Roupa masculina", "Toda branca, lisa. Sem colarinho, sem bordado. Gola redonda chata, abertura curta com botões, tassel. Único detalhe: costura, filas paralelas na abertura fechando em ponta, e linhas diagonais da gola até a costura do ombro. Daniel, 11 set 2026."],
     ["Pano da cabeça", "Nunca nos ombros. Sempre cobrindo as orelhas. Toda pose. Daniel, 1 set 2026."],
   ],
 

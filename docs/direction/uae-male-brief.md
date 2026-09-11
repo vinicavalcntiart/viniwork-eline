@@ -46,9 +46,12 @@ wear, not what an ordinary elder wears day to day. Not building it.
 **Robe colour.** Usually white, occasionally beige, dark shades in winter. Daniel said
 white. White it is, and Khalaf supports white as the default.
 
-**Subtle embroidery exists.** Khalaf: the robe "can be elegantly and subtly
-embroidered". With an all-white palette that is a normal-map detail at the collar line
-and front opening, not an albedo one.
+**No embroidery, no collar. Withdrawn 11 Sep.** Khalaf says the robe "can be"
+embroidered; Daniel's in-person read is that the default is flat and understated.
+The only surface detail is top-stitching: parallel rows along the buttoned opening
+converging to a point below it, and diagonal stitched seam lines from the neckline
+out to the shoulder seams. Flat round neckline with no standing band. Tassel stays.
+See feedback-log.md, 11 Sep.
 
 ## The one gap
 
