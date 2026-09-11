@@ -103,7 +103,7 @@ Everything else stays exactly as in @img1. ZBrush sculpt screenshot look, matte 
 
 ## Masculino Jovem · iteração 3 · barba em blocos, mais novo · 11 set 2026
 
-Anchor: a saída da iteração 2, citada como @img1. Dobras do pano ficaram
+Anchor: a saída da iteração 2, citada como @img2. Dobras do pano ficaram
 boas. Rosto ainda lê uns trinta.
 
 Referência de barba (estilo Fortnite, mechas esculpidas em cunha) NÃO vai
@@ -111,11 +111,11 @@ como segundo anchor. Segundo anchor vaza desenho, cor e fundo. O tratamento
 vai descrito em texto.
 
 ```
-Same character, same pose, same three-quarter bust framing, same head cloth with its folds, same black cord, same robe with its embroidery and tassel, same nose, same lighting and background as @img1. Change only two things.
+Same character, same pose, same three-quarter bust framing, same head cloth with its folds, same black cord, same robe with its embroidery and tassel, same nose, same lighting and background as @img2. Change only two things.
 
-BEARD TREATMENT: the beard is built from thick sculpted locks, each lock a tapered wedge with a hard ridge along its top and a sharp edge where it meets the next lock, like hair carved from a solid block. The locks flow in one direction, from the cheek down and forward toward the chin, overlapping in layers like roof shingles. Surfaces are smooth and slightly glossy between the ridges, no fur, no strands, no soft fuzz. The moustache is two thick tapered sweeps meeting at the center. The beard itself is short and close to the jawline, no longer than in @img1, so the locks are small and few, about six to eight visible wedges in total. Same dark color as @img1. Eyebrows get the same carved treatment as two clean tapered shapes.
+BEARD TREATMENT: the beard is built from thick sculpted locks, each lock a tapered wedge with a hard ridge along its top and a sharp edge where it meets the next lock, like hair carved from a solid block. The locks flow in one direction, from the cheek down and forward toward the chin, overlapping in layers like roof shingles. Surfaces are smooth and slightly glossy between the ridges, no fur, no strands, no soft fuzz. The moustache is two thick tapered sweeps meeting at the center. The beard itself is short and close to the jawline, no longer than in @img2, so the locks are small and few, about six to eight visible wedges in total. Same dark color as @img2. Eyebrows get the same carved treatment as two clean tapered shapes.
 
-AGE: the face reads as eighteen, a teenager becoming a man. Rounder, softer cheeks with clear baby-fat volume, no hollows anywhere, a rounder and slightly smaller jaw, eyes larger in proportion to the face and fully open with lifted upper lids, a flat light brow with no ridge, a shorter distance between the nose and the upper lip, smooth skin. The beard is sparser toward the cheeks, denser only along the jaw and chin. The nose stays exactly as in @img1, long, straight bridge, pointed tip angling down, narrow base.
+AGE: the face reads as eighteen, a teenager becoming a man. Rounder, softer cheeks with clear baby-fat volume, no hollows anywhere, a rounder and slightly smaller jaw, eyes larger in proportion to the face and fully open with lifted upper lids, a flat light brow with no ridge, a shorter distance between the nose and the upper lip, smooth skin. The beard is sparser toward the cheeks, denser only along the jaw and chin. The nose stays exactly as in @img2, long, straight bridge, pointed tip angling down, narrow base.
 
-Everything else stays exactly as in @img1. ZBrush sculpt screenshot look, matte clay with polypaint, flat neutral grey background. Bust only, one single figure, no text.
+Everything else stays exactly as in @img2. ZBrush sculpt screenshot look, matte clay with polypaint, flat neutral grey background. Bust only, one single figure, no text.
 ```
