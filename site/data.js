@@ -18,7 +18,7 @@ window.PROJECT = {
     { name: "UAE Young Female", role: "18 anos", status: "done",
       note: "Entregue no SVN. Duas variantes de textura. Daniel: \"this feels dead on\"." },
     { name: "Masculino, Jovem", role: "Corpo magro · 15 set", status: "active",
-      note: "Robe branco sem colarinho, tassel ligado. Pano branco na cabeça acima dos ombros, orelhas cobertas. Toggle de cabelo." },
+      note: "Sem barba, lê 17. Daniel esculpiu por cima em 11 set: gola chata, costuras diagonais, rosto mais fino. Arquivo dele é a base agora." },
     { name: "Masculino, Idoso", role: "Corpo maior · 15 set", status: "active",
       note: "Mesma roupa. Envelhecimento em volta do nariz, nunca por cima. Corpo compartilhado com o Velho depois." },
     { name: "Masculino, Meia-idade", role: "Corpo magro · depois", status: "waiting",
@@ -31,10 +31,10 @@ window.PROJECT = {
     {
       title: "Jovem + Idoso · entrega 15 set",
       tasks: [
-        { t: "Cabeças do Jovem e do Idoso. Nariz reto primeiro, envelhecer em volta", s: "active", why: "Daniel 11 set: rosto sem nota. Barba mais redonda em U na mandíbula, sem ponta no queixo. Idoso ainda por fazer." },
+        { t: "Cabeças do Jovem e do Idoso. Nariz reto primeiro, envelhecer em volta", s: "active", why: "Daniel esculpiu por cima 11 set. Jovem sem barba, rosto mais fino. Nariz, olhos e pano passaram sem ele encostar. Idoso ainda por fazer." },
         { t: "Blockout do corpo magro (Jovem)", s: "next" },
         { t: "Blockout do corpo maior (Idoso)", s: "next" },
-        { t: "Roupa: robe branco com tassel, pano + cordão em toggle, cabelo do Jovem em toggle, pés com sandália numa mesh", s: "active", why: "Daniel 11 set: tirar a faixa da gola e o bordado. Gola redonda chata, botões, tassel, e só costura: filas na abertura fechando em ponta, linhas diagonais até o ombro." },
+        { t: "Roupa: robe branco com tassel, pano + cordão em toggle, cabelo do Jovem em toggle, pés com sandália numa mesh", s: "active", why: "Daniel resolveu no arquivo 11 set: gola chata, linha vertical da abertura, costuras diagonais até o ombro. Mão e punho também." },
         { t: "Screenshots do blockout para o Daniel", s: "next" },
         { t: "Refino e polypaint", s: "next" },
         { t: "Retopo, bake, albedo + mixmap + normal", s: "next" },
@@ -100,7 +100,8 @@ window.PROJECT = {
     ["Burqa", "Máscara dourada rígida sobre nariz e boca, olhos e maçãs visíveis."],
     ["Vestido da idosa", "Faixas Al Sadu, vermelho / preto / branco / laranja queimado. [EXTENSÃO]"],
     ["Joia", "Ouro escuro envelhecido, igual à UAE Female aprovada."],
-    ["Roupa masculina", "Toda branca, lisa. Sem colarinho, sem bordado. Gola redonda chata, abertura curta com botões, tassel. Único detalhe: costura, filas paralelas na abertura fechando em ponta, e linhas diagonais da gola até a costura do ombro. Daniel, 11 set 2026."],
+    ["Roupa masculina", "Toda branca, lisa. Sem colarinho, sem bordado. Gola chata, linha vertical da abertura, tassel, costuras diagonais da gola até o ombro. Daniel esculpiu, 11 set 2026."],
+    ["Jovem, barba", "Sem barba. Lê 17 a 18. Daniel esculpiu, 11 set 2026."],
     ["Pano da cabeça", "Nunca nos ombros. Sempre cobrindo as orelhas. Toda pose. Daniel, 1 set 2026."],
   ],
 

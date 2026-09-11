@@ -4,6 +4,31 @@ Daniel's reactions to WIPs, dated, verbatim where possible. Newest first.
 
 ---
 
+## 11 Sep 2026 · Male, Young · Daniel sculpted over the file
+
+Daniel opened the Young bust and worked directly on it in Blender. Two captures
+came back: the bust, and a hand against the robe.
+
+**Untouched, read as approved:** nose, eyes, face shape, head cloth design, black
+cord, robe silhouette, tassel placement.
+
+**Changed, read as locked:**
+- No beard on the Young. Clean-shaven. Face reads seventeen to eighteen.
+- Face and neck slimmer.
+- Neckline flat, no band, no embroidery. One vertical line for the buttoned
+  opening. Diagonal stitched seam lines from the neckline to the shoulder seams.
+- Head cloth hangs closer to the skull, side panels fall softer.
+- Hand and cuff pass. The area Vini had flagged as next.
+
+**Why it happened.** No collar was on the first sketch, 1 Sep. The 11 Sep bust
+still carried a neck band and embroidery, the embroidery on this log's own earlier
+advice. Daniel's "I can't overstate enough" was the frustration marker, and the
+deadline was four days out. He showed instead of telling again.
+
+**Working file from here:** Daniel's version.
+
+---
+
 ## 11 Sep 2026 · Male, Young · dressed bust · Daniel's notes
 
 **Daniel:** "Couple things: more rounded beard, he's giving System of a Down vibes
