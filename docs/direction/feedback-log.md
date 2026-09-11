@@ -4,6 +4,15 @@ Daniel's reactions to WIPs, dated, verbatim where possible. Newest first.
 
 ---
 
+## 11 Sep 2026 · Male, Young · dressed bust, sent to Daniel
+
+Second pass sent. Nose longer and descending, neck slimmed, head cloth with
+real folds and clear of the shoulders, black cord, white robe with no collar,
+tone-on-tone embroidery and tassel, beard as a clean graphic mass, face
+younger. Awaiting Daniel.
+
+---
+
 ## 1 Sep 2026 · Male, Young · head blockout, three views
 
 **Daniel:** "nice, looking a bit too disney in some cases perhaps? also just from the

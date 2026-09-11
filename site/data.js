@@ -31,10 +31,10 @@ window.PROJECT = {
     {
       title: "Jovem + Idoso · entrega 15 set",
       tasks: [
-        { t: "Cabeças do Jovem e do Idoso. Nariz reto primeiro, envelhecer em volta", s: "active", why: "Começou 1 set. Daniel no Jovem: um pouco Disney, pescoço de halterofilista. Nariz mais longo e pontudo resolve o primeiro, pescoço mais fino o segundo." },
+        { t: "Cabeças do Jovem e do Idoso. Nariz reto primeiro, envelhecer em volta", s: "active", why: "Jovem enviado ao Daniel 11 set, já com nariz longo, pescoço fino, pano, cordão e robe. Aguardando retorno. Idoso ainda por fazer." },
         { t: "Blockout do corpo magro (Jovem)", s: "next" },
         { t: "Blockout do corpo maior (Idoso)", s: "next" },
-        { t: "Roupa: robe branco com tassel, pano + cordão em toggle, cabelo do Jovem em toggle, pés com sandália numa mesh", s: "next" },
+        { t: "Roupa: robe branco com tassel, pano + cordão em toggle, cabelo do Jovem em toggle, pés com sandália numa mesh", s: "active", why: "Robe, pano e cordão blocados no busto do Jovem, 11 set." },
         { t: "Screenshots do blockout para o Daniel", s: "next" },
         { t: "Refino e polypaint", s: "next" },
         { t: "Retopo, bake, albedo + mixmap + normal", s: "next" },
