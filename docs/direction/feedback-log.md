@@ -9,10 +9,21 @@ Daniel's reactions to WIPs, dated, verbatim where possible. Newest first.
 Daniel opened the Young bust and worked directly on it in Blender. Two captures
 came back: the bust, and a hand against the robe.
 
-**Untouched, read as approved:** nose, eyes, face shape, head cloth design, black
-cord, robe silhouette, tassel placement.
+**Correction.** A first pass of this entry said nose and eyes were untouched. That
+was read off two screenshots. Vini has the mesh and confirms both were reworked.
+Withdrawn.
+
+**Untouched, read as approved:** head cloth design, black cord, robe silhouette,
+tassel placement.
 
 **Changed, read as locked:**
+- Nose: bridge narrower, tip finer, the whole nose slightly smaller. Profile
+  logic unchanged, straight bridge and pointed descending tip.
+- Eyes: upper lid lowered so it cuts the top of the iris. The full round iris
+  with white all around was the Disney read Daniel had been naming since the
+  first note without spelling it out. Eye size was not the problem, iris
+  exposure was.
+- Brows thinner and more arched.
 - No beard on the Young. Clean-shaven. Face reads seventeen to eighteen.
 - Face and neck slimmer.
 - Neckline flat, no band, no embroidery. One vertical line for the buttoned
