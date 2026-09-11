@@ -72,3 +72,27 @@ Checar na saída antes de usar: nariz longo, reto e descendente, base estreita,
 igual ao do Jovem. Rugas em volta, nada sobre o dorso do nariz. Orelhas
 cobertas, pano fora dos ombros, cordão preto, sem colarinho, tassel, tudo
 branco.
+
+---
+
+## Masculino Jovem · iteração 2 · dobras e barba · 11 set 2026
+
+Anchor: a saída da iteração 1 (busto 3/4 vestido), citada como @img1.
+O que a iteração 1 acertou: nariz longo e descendente, pescoço fino, orelhas
+cobertas, pano fora dos ombros, cordão duplo, sem colarinho, tassel, bordado
+tom sobre tom. Tudo isso fica.
+
+O que muda: o pano lê como chapa lisa de espessura uniforme, e a barba saiu
+em tufos de pelo em vez da massa gráfica limpa do blockout. As duas mudanças
+puxam em direções opostas de propósito, pano com lógica de material real,
+barba como forma simplificada. É o mesmo equilíbrio da UAE Female aprovada.
+
+```
+Same character, same pose, same three-quarter bust framing, same head covering, same robe, same face, same lighting and background as @img1. Change only two things.
+
+CLOTH: the white head cloth behaves like real lightweight cotton instead of a smooth uniform sheet. The fabric gathers and bunches under the black cord band, with soft pleats radiating outward from the crown. The two front panels hang with visible weight, a few long soft folds running down their length, and the lower edges curl slightly inward. The fabric edge is thin. Where the cloth passes over the shoulders of the robe it creases naturally. The robe shows soft tension folds from the shoulder toward the chest opening. Fabric still reads clean and simplified, no noisy micro-wrinkles, but every fold follows gravity and the shape underneath.
+
+BEARD: the beard is a single clean sculpted mass with a sharp graphic silhouette, built from three or four large simplified clumps with smooth surfaces and crisp edges. No individual hair strands, no fur texture, no fluffy or soft clumping. The moustache is one clean shape that connects into the beard. Same dark color, same overall size and coverage as @img1, only the treatment changes, from fur to sculpted graphic form. Eyebrows get the same treatment, two clean simplified shapes.
+
+Everything else stays exactly as in @img1. ZBrush sculpt screenshot look, matte clay with polypaint, flat neutral grey background. Bust only, one single figure, no text.
+```
