@@ -19,8 +19,8 @@ window.PROJECT = {
       note: "Entregue no SVN. Duas variantes de textura. Daniel: \"this feels dead on\"." },
     { name: "Masculino, Jovem", role: "Corpo magro", status: "done",
       note: "Cabeça aprovada 17 set. Sem barba, pano e cordão, robe liso. Falta corpo, rig e handoff." },
-    { name: "Masculino, Idoso", role: "Corpo maior · 15 set", status: "active",
-      note: "Mesma roupa. Envelhecimento em volta do nariz, nunca por cima. Corpo compartilhado com o Velho depois." },
+    { name: "Masculino, Idoso", role: "Corpo maior", status: "active",
+      note: "Cabeça WIP enviada ao Daniel 17 set, ao lado do Jovem aprovado. Barba branca em U, nariz mantido." },
     { name: "Masculino, Meia-idade", role: "Corpo magro · depois", status: "waiting",
       note: "Reusa o corpo do Jovem. Só cabeça." },
     { name: "Masculino, Velho", role: "Corpo maior · depois", status: "waiting",
@@ -31,7 +31,7 @@ window.PROJECT = {
     {
       title: "Jovem + Idoso · entrega 15 set",
       tasks: [
-        { t: "Cabeças do Jovem e do Idoso. Nariz reto primeiro, envelhecer em volta", s: "active", why: "Jovem aprovado 17 set. Idoso começa a partir dele, referência no Freepik gerada." },
+        { t: "Cabeças do Jovem e do Idoso. Nariz reto primeiro, envelhecer em volta", s: "active", why: "Jovem aprovado 17 set. Idoso WIP enviado ao Daniel no mesmo dia." },
         { t: "Blockout do corpo magro (Jovem)", s: "next" },
         { t: "Blockout do corpo maior (Idoso)", s: "next" },
         { t: "Roupa: robe branco com tassel, pano + cordão em toggle, cabelo do Jovem em toggle, pés com sandália numa mesh", s: "active", why: "Daniel resolveu no arquivo 11 set: gola chata, linha vertical da abertura, costuras diagonais até o ombro. Mão e punho também." },

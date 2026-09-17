@@ -4,6 +4,15 @@ Daniel's reactions to WIPs, dated, verbatim where possible. Newest first.
 
 ---
 
+## 17 Sep 2026 · Male, Elderly · first head WIP, sent to Daniel
+
+Side by side with the approved Young. White beard in a rounded U with clean
+clumps, no chin point. White brows. Hooded lids, nasolabial folds, cheek
+structure, nose kept straight and long. Head cloth and cord as the Young.
+Awaiting Daniel.
+
+---
+
 ## 17 Sep 2026 · Male, Young · approved
 
 Front-view bust. Clean-shaven, head cloth covering the ears and clear of the
