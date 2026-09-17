@@ -4,6 +4,19 @@ Daniel's reactions to WIPs, dated, verbatim where possible. Newest first.
 
 ---
 
+## 17 Sep 2026 · Male, Young · status ping
+
+Deadline was 15 Sep. Dan at 9:19 PM: "@Vini any news on those updates?" Vini:
+still working, not happy with the face, WIP tonight if not finished, more finished
+version tomorrow. Dan: "alright", same minute.
+
+Read: civil, no mention of the date, but one-word reply from someone who had
+been chatty all day. Patience being spent, not anger. Risk in Vini's wording:
+"not happy with the face" six days after Dan sculpted the face himself can read as
+reworking what Dan already settled. What resets it is a file and a concrete time.
+
+---
+
 ## 11 Sep 2026 · Male, Young · Daniel sculpted over the file
 
 Daniel opened the Young bust and worked directly on it in Blender. Two captures
