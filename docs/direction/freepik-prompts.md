@@ -122,3 +122,37 @@ AGE: the face reads as eighteen, a teenager becoming a man. Rounder, softer chee
 
 Everything else stays exactly as in @img2. ZBrush sculpt screenshot look, matte clay with polypaint, flat neutral grey background. Bust only, one single figure, no text.
 ```
+
+---
+
+## Masculino Idoso · a partir do Jovem aprovado · 17 set 2026
+
+Anchor: o Jovem aprovado (vista frontal, sem barba, pano e cordão, robe liso),
+citado como @img1. Trocar o número se o Freepik der outro.
+
+Carrega tudo que o Daniel travou: barba redonda em U sem ponta no queixo, robe
+liso sem gola e sem bordado, orelhas cobertas, pano fora dos ombros, cordão,
+anatomia visível por baixo da estilização, pálpebra cobrindo o topo da íris.
+Envelhecimento em volta do nariz, nunca por cima.
+
+```
+Same character, same front-facing bust framing, same head cloth, same black cord, same plain white robe with no collar and no embroidery, same lighting and grey background as @img1. Age this exact man to about seventy. Keep the sculpt style of @img1: stylized, clean surfaces, but with real anatomical structure underneath, never smooth or doll-like.
+
+NOSE, UNCHANGED: the nose keeps exactly the shape in @img1, long, straight bridge, pointed tip angling down, narrow base. No widening, no drooping, no bumps, no surface detail on it. It stays the cleanest form in the face.
+
+AGE, AROUND THE NOSE: bone shows through. Hollow temples, the cheekbone arch standing out with the cheek sinking below it, a visible orbital rim with the eye set deeper, heavy hooded upper lids that cover the top of the iris more than in @img1, a lowered brow, deep folds from the sides of the nose down past the mouth corners, softened loose flesh along the jaw, a few deep horizontal forehead lines. Skin reads dry and thin over the bone. Simplified planes, not a mesh of wrinkles.
+
+BEARD: a full white beard, cleanly shaped as one solid sculpted mass following the jawline in a rounded U shape. No point at the chin, the bottom edge is round. Built from four or five large simplified clumps with smooth surfaces and crisp edges, no individual hairs, no fur texture. The moustache is one clean white shape connecting into the beard. Eyebrows white, thick, slightly unruly, two clean simplified shapes.
+
+BUILD: heavier than @img1. Thicker, softer neck with loose skin, broader sloping shoulders, fuller upper chest. A solid older body, not muscular.
+
+HEAD CLOTH AND ROBE: exactly as in @img1. Cloth covering both ears completely, hanging clear of the shoulders, black double cord on the crown. Robe pure white, flat round neckline with no collar, no embroidery anywhere, only fine stitching lines.
+
+SKIN: same warm tone family as @img1, yellow present but not dominant, not darkened.
+
+ZBrush sculpt screenshot look, matte clay with polypaint, flat grey background. Bust only, one single figure, no text.
+```
+
+Checar antes de usar: nariz igual ao do Jovem, sem ruga em cima dele. Barba em
+U redondo, sem ponta. Íris coberta em cima. Osso aparecendo na têmpora e na
+maçã. Gola lisa. Orelhas cobertas, pano fora dos ombros.

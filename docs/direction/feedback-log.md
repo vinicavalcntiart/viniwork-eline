@@ -4,6 +4,16 @@ Daniel's reactions to WIPs, dated, verbatim where possible. Newest first.
 
 ---
 
+## 17 Sep 2026 · Male, Young · approved
+
+Front-view bust. Clean-shaven, head cloth covering the ears and clear of the
+shoulders, black cord, plain white robe with no collar. Long straight nose with
+descending tip. Upper lids cover the top of the iris. Cheekbone planes, philtrum,
+neck structure visible under the stylization. This is the Young. The Elderly
+starts from it.
+
+---
+
 ## 17 Sep 2026 · Male, Young · status ping
 
 Deadline was 15 Sep. Dan at 9:19 PM: "@Vini any news on those updates?" Vini:
