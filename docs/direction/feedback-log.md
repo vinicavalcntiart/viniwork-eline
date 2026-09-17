@@ -4,6 +4,20 @@ Daniel's reactions to WIPs, dated, verbatim where possible. Newest first.
 
 ---
 
+## 17 Sep 2026 · Male, Young + Elderly · Daniel on the side-by-side
+
+Vini, 12:51 PM: "here's a WIP of both, the young and the elder side by side.
+pushed a bit more anatomy on the faces like you did. not sure if the
+stylization level is right, let me know"
+
+**Daniel, 12:52 PM:** "nice! this is looking a bit less disney (not that disney
+is bad XD)"
+
+One minute. Stylization level confirmed on both heads. The anatomy calibration
+from his 11 Sep pass is the target. No notes on the elder's age or beard.
+
+---
+
 ## 17 Sep 2026 · Male, Elderly · first head WIP, sent to Daniel
 
 Side by side with the approved Young. White beard in a rounded U with clean
