@@ -31,7 +31,7 @@ window.PROJECT = {
     {
       title: "Jovem + Idoso · entrega 15 set",
       tasks: [
-        { t: "Cabeças do Jovem e do Idoso. Nariz reto primeiro, envelhecer em volta", s: "active", why: "Prazo 15 set passou. Dan pediu status 17 set, respondeu \"alright\". Refino em cima da versão dele. WIP prometido para hoje. Idoso ainda por fazer." },
+        { t: "Cabeças do Jovem e do Idoso. Nariz reto primeiro, envelhecer em volta", s: "active", why: "Prazo 15 set passou. Dan não gostou nem do sculpt dele. Alvo indefinido dos dois lados, precisa de referência apontada. Idoso ainda por fazer." },
         { t: "Blockout do corpo magro (Jovem)", s: "next" },
         { t: "Blockout do corpo maior (Idoso)", s: "next" },
         { t: "Roupa: robe branco com tassel, pano + cordão em toggle, cabelo do Jovem em toggle, pés com sandália numa mesh", s: "active", why: "Daniel resolveu no arquivo 11 set: gola chata, linha vertical da abertura, costuras diagonais até o ombro. Mão e punho também." },

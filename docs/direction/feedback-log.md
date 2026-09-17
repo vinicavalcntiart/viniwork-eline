@@ -10,10 +10,12 @@ Deadline was 15 Sep. Dan at 9:19 PM: "@Vini any news on those updates?" Vini:
 still working, not happy with the face, WIP tonight if not finished, more finished
 version tomorrow. Dan: "alright", same minute.
 
-Read: civil, no mention of the date, but one-word reply from someone who had
-been chatty all day. Patience being spent, not anger. Risk in Vini's wording:
-"not happy with the face" six days after Dan sculpted the face himself can read as
-reworking what Dan already settled. What resets it is a file and a concrete time.
+Read, revised after Vini's note: in a call Daniel said he did not like the face
+even with his own sculpt on it. So "not happy with the face" is shared, not Vini
+re-litigating. The one-word reply is fatigue with an unsolved problem, not
+displeasure at Vini. The blocker is an undefined target: neither side has the
+image in words or in mesh. What unblocks it is Daniel pointing at something
+that exists.
 
 ---
 
@@ -60,7 +62,9 @@ still carried a neck band and embroidery, the embroidery on this log's own earli
 advice. Daniel's "I can't overstate enough" was the frustration marker, and the
 deadline was four days out. He showed instead of telling again.
 
-**Working file from here:** Daniel's version.
+**Working file from here:** Daniel's version, as a direction. Corrected 17 Sep:
+in a call Daniel said he was not happy with his own sculpt either. His pass is
+not the target. The target is still undefined on both sides.
 
 ---
 
