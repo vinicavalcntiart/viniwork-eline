@@ -37,7 +37,7 @@ window.PROJECT = {
         { t: "Roupa: robe branco com tassel, pano + cordão em toggle, cabelo do Jovem em toggle, pés com sandália numa mesh", s: "active", why: "Daniel resolveu no arquivo 11 set: gola chata, linha vertical da abertura, costuras diagonais até o ombro. Mão e punho também." },
         { t: "Screenshots do blockout para o Daniel", s: "next" },
         { t: "Refino e polypaint", s: "active", why: "High poly com detalhe enviado 24 set. Retopo atrasada." },
-        { t: "Retopo, bake, albedo + mixmap + normal", s: "active", why: "Atrasada. Sem data dada ao Daniel." },
+        { t: "Retopo, bake, albedo + mixmap + normal", s: "active", why: "Daniel 24 set: rosto, olhos e boca num bloco de UV isolado e igual em todos, para variante de cabeça virar troca de textura. Decide no layout, antes do bake." },
         { t: "Rig, teste de pose extrema, handoff no SVN", s: "next" },
       ]
     },
@@ -118,6 +118,6 @@ window.PROJECT = {
 
   pipeline: [
     "Sem skirt bones", "Sem shape keys", "Sem corrective smooth", "Auto-normalize ligado",
-    "Sem ossos faciais ou blend shapes", "Só albedo + mixmap + normal", "Um UV set por mesh", "Sem concept 2D, vis dev vai direto pro 3D",
+    "Sem ossos faciais ou blend shapes", "Só albedo + mixmap + normal", "Um UV set por mesh", "Rosto, olhos e boca num bloco de UV isolado e consistente", "Sem concept 2D, vis dev vai direto pro 3D",
   ],
 };

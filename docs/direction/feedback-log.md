@@ -4,6 +4,19 @@ Daniel's reactions to WIPs, dated, verbatim where possible. Newest first.
 
 ---
 
+## 24 Sep 2026 · Daniel on the high poly
+
+**Daniel, 7:15 PM:** "looking very clean!!!!! once you get the first guy out, we
+should be able to use him to do lots of head variants fairly easy, as long as you
+reserve a nice spot in the uv's for head/eyes/mouth that stays isolated and
+consistent, we can generate some pretty rapid alternate versions"
+
+No note on the beard variant, none on the toes. Pipeline direction: head, eyes
+and mouth in one isolated UV region, same layout across characters, so head
+variants become texture swaps. Decided at UV layout, before the bake.
+
+---
+
 ## 24 Sep 2026 · Male, high poly with details, sent to Daniel
 
 After a week without updates. Full body front, back, three-quarter close. Head

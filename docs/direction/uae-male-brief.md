@@ -74,6 +74,10 @@ had. Iris partly covered by the upper lid.
 
 ## Pipeline reading
 
+- **UV, from Daniel 24 Sep.** Head, eyes and mouth occupy one isolated region of
+  the UV layout, in the same place on every character, so a head variant is a
+  texture swap on that region and nothing else. Set at UV layout, before the bake.
+
 - Head cloth off the shoulders and over the ears is close to a rigid shell on the
   skull. Weight it almost entirely to the head bone. The draped-cloth problem is gone.
 - The tassel is the only hanging element. Weight it to the chest with a soft falloff and
