@@ -36,8 +36,8 @@ window.PROJECT = {
         { t: "Blockout do corpo maior (Idoso)", s: "next" },
         { t: "Roupa: robe branco com tassel, pano + cordão em toggle, cabelo do Jovem em toggle, pés com sandália numa mesh", s: "active", why: "Daniel resolveu no arquivo 11 set: gola chata, linha vertical da abertura, costuras diagonais até o ombro. Mão e punho também." },
         { t: "Screenshots do blockout para o Daniel", s: "next" },
-        { t: "Refino e polypaint", s: "next" },
-        { t: "Retopo, bake, albedo + mixmap + normal", s: "next" },
+        { t: "Refino e polypaint", s: "active", why: "High poly com detalhe enviado 24 set. Retopo atrasada." },
+        { t: "Retopo, bake, albedo + mixmap + normal", s: "active", why: "Atrasada. Sem data dada ao Daniel." },
         { t: "Rig, teste de pose extrema, handoff no SVN", s: "next" },
       ]
     },

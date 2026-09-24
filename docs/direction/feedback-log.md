@@ -4,6 +4,20 @@ Daniel's reactions to WIPs, dated, verbatim where possible. Newest first.
 
 ---
 
+## 24 Sep 2026 · Male, high poly with details, sent to Daniel
+
+After a week without updates. Full body front, back, three-quarter close. Head
+cloth with the cord tied at the back, tails hanging. Diagonal seam stitching,
+buttons, tassel, plain flat neckline. Sandals with sculpted separate toes. A
+bearded head next to the clean-shaven Young, beard dark, not the white beard of
+17 Sep. Message: "this is the high poly with details, while I work on the
+retopology." No date given. Retopo is late.
+
+Possible notes coming: separate toes against the "no separate toes" brief; the
+dark beard reads mid-forties, not seventy, if that head is the Elderly.
+
+---
+
 ## 17 Sep 2026 · Male, Young + Elderly · Daniel on the side-by-side
 
 Vini, 12:51 PM: "here's a WIP of both, the young and the elder side by side.
