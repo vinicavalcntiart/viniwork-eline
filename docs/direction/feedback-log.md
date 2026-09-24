@@ -8,13 +8,15 @@ Daniel's reactions to WIPs, dated, verbatim where possible. Newest first.
 
 After a week without updates. Full body front, back, three-quarter close. Head
 cloth with the cord tied at the back, tails hanging. Diagonal seam stitching,
-buttons, tassel, plain flat neckline. Sandals with sculpted separate toes. A
-bearded head next to the clean-shaven Young, beard dark, not the white beard of
-17 Sep. Message: "this is the high poly with details, while I work on the
+buttons, tassel, plain flat neckline. Sandals with sculpted separate toes. The Young in two
+variants, clean-shaven and with a short dark beard in the rounded U Daniel asked
+for. Message: "this is the high poly with details, while I work on the
 retopology." No date given. Retopo is late.
 
-Possible notes coming: separate toes against the "no separate toes" brief; the
-dark beard reads mid-forties, not seventy, if that head is the Elderly.
+Possible notes coming: separate toes against the "no separate toes" brief. The
+beard variant puts back what Daniel removed by hand on 11 Sep and reads about
+thirty-five. It lands better named as the Middle variant on the shared body
+than as a bearded Young.
 
 ---
 
