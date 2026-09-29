@@ -4,6 +4,16 @@ Daniel's reactions to WIPs, dated, verbatim where possible. Newest first.
 
 ---
 
+## 29 Sep 2026 · DM to Dan, date committed
+
+Earlier in the DM, Dan on a Blender clip of the robe moving on the rig: "I love it".
+Deformation reads approved.
+
+Vini, 6:08 PM: "Hey Dan, just to give heads up, I'll send some updates soon and
+I will finish tomorrow morning :)". First message with a date. Due 30 Sep morning.
+
+---
+
 ## 24 Sep 2026 · Daniel on the high poly
 
 **Daniel, 7:15 PM:** "looking very clean!!!!! once you get the first guy out, we
