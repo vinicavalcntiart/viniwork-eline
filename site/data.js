@@ -3,8 +3,8 @@
 window.PROJECT = {
   version: 4,
   updated: "2026-09-01",
-  deadline: "a definir com o Daniel",
-  deadlineISO: "2026-10-03",
+  deadline: "1 de outubro, fim do contrato",
+  deadlineISO: "2026-10-01",
   drive: "https://drive.google.com/drive/folders/1fuf5EL2fl3Z_0pIhtapwFMalTcG7BDKf",
   repo: "https://github.com/vinicavalcntiart/viniwork-eline/tree/claude/uae-character-project-r0w45n",
   articleStage: 5,
@@ -44,8 +44,8 @@ window.PROJECT = {
     {
       title: "Idoso · depois do Jovem",
       tasks: [
-        { t: "Retopo do corpo maior e da cabeça", s: "next" },
-        { t: "UV, mesmo layout do Jovem", s: "next" },
+        { t: "Low poly por shrinkwrap do Jovem no high poly do Idoso, corpo e cabeça. UVs herdadas", s: "next" },
+        { t: "Barba como casca simples", s: "next" },
         { t: "Rig por Data Transfer a partir do Jovem, ajustar", s: "next" },
         { t: "Bake", s: "next" },
         { t: "Textura, robe reaproveitado", s: "next" },
