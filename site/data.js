@@ -53,6 +53,18 @@ window.PROJECT = {
         { t: "Teste de pose extrema, handoff no SVN", s: "next" },
       ]
     },
+    {
+      title: "DCT · fêmeas entregues · 28 set",
+      tasks: [
+        { t: "Burqa prata para ouro escuro ou latão, em toda variante", s: "next", why: "Textura. Minutos." },
+        { t: "Joia prata para ouro, colar longo da direita para ouro", s: "next", why: "Textura. Minutos." },
+        { t: "Colar curto: tirar ou alongar abaixo da linha do lenço", s: "next", why: "Geometria pequena." },
+        { t: "Borda inferior do vestido pelo padrão das imagens do DCT", s: "next", why: "Textura. Precisa das imagens anexadas. Provável ser a faixa Al Sadu, que estava marcada como extensão." },
+        { t: "Abaya da esquerda: de moderna para a drapeada", s: "next", why: "Geometria nova. Grande." },
+        { t: "Última fileira, 3 personagens: reestilizar pelas referências nupciais", s: "next", why: "Escopo desconhecido até identificar quais são. Grande." },
+      ]
+    },
+
   ],
 
   pillars: [
