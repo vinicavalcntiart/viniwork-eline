@@ -98,3 +98,40 @@ section said the study lacked: a reading by the target cultural authority. Recor
 The article claimed the criteria were informed by indirect evidence and that direct
 testing remained open. This is the direct test, on the delivered characters, and the
 locked criteria passed it.
+
+---
+
+## The page images, read against the notes
+
+Fetched 30 Sep from the two Abu Dhabi Culture pages. Not committed, they are DCT
+property. URLs:
+
+- Brides Procession, three women close: `https://abudhabiculture.ae/-/media/abudhabiculture/images/cultural-heritage/brides-procession/1.jpg`
+- Brides Procession, the procession: `https://abudhabiculture.ae/-/media/abudhabiculture/images/cultural-heritage/brides-procession/2.jpg`
+- Zuhba, dresses hanging: `https://abudhabiculture.ae/-/media/abudhabiculture/images/cultural-heritage/heritage-register/new/zuhba-banner.jpg`
+
+**Burqa.** Gold and brass in every shot. Crossbar over the brow, strip down the
+nose, wings over the upper lip. Exactly the locked decision.
+
+**Necklaces.** Long, several strands, coin and disc pendants, hanging to the chest
+well below the scarf line. This is what "make the necklaces longer" means. Big
+gold earrings show below the sheila.
+
+**The draped abaya.** In the procession shot, a rectangle of light black cloth worn
+over the head and falling to the hem, gold border along the edges, open at the
+front over the coloured dress. Not a tailored front-opening coat. That is the
+"draped one" the DCT wants instead of the "modern" one.
+
+**Dress border.** The Zuhba wall settles the hem question. Twenty-odd long dresses
+in strong solid colours, teal, orange, magenta, red, yellow, purple, blue, green.
+Decoration sits at the neckline, down a centre-front strip, and at the cuffs. The
+hem is plain or carries a narrow band at most. The fabric is either solid or has
+small scattered motifs across the body. No horizontal striped bands at the bottom.
+The Al Sadu band on the elder's underdress is the thing the DCT called not
+Emirati. The extension flag was right.
+
+**Overdress.** Several women wear a sheer net overdress with gold edging over the
+solid dress. That is the layered look the "last row" note points at.
+
+The DCT's own attached images for the border are separate from these pages and
+sit with whoever received the feedback.
