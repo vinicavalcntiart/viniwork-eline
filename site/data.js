@@ -1,10 +1,10 @@
 // Monitor do projeto UAE. Edite este arquivo para atualizar o site.
 // Status: done | active | next | blocked | waiting | verify
 window.PROJECT = {
-  version: 3,
+  version: 4,
   updated: "2026-09-01",
-  deadline: "30 de setembro",
-  deadlineISO: "2026-09-30",
+  deadline: "a definir com o Daniel",
+  deadlineISO: "2026-10-03",
   drive: "https://drive.google.com/drive/folders/1fuf5EL2fl3Z_0pIhtapwFMalTcG7BDKf",
   repo: "https://github.com/vinicavalcntiart/viniwork-eline/tree/claude/uae-character-project-r0w45n",
   articleStage: 5,
@@ -17,10 +17,10 @@ window.PROJECT = {
       note: "Entregue no SVN. High, low, LODs, rig, três variantes de textura. Daniel: \"looking great\"." },
     { name: "UAE Young Female", role: "18 anos", status: "done",
       note: "Entregue no SVN. Duas variantes de textura. Daniel: \"this feels dead on\"." },
-    { name: "Masculino, Jovem", role: "Corpo magro", status: "done",
-      note: "Cabeça aprovada 17 set. Sem barba, pano e cordão, robe liso. Falta corpo, rig e handoff." },
-    { name: "Masculino, Idoso", role: "Corpo maior", status: "active",
-      note: "Daniel 17 set: \"nice! looking a bit less disney\". Nível de estilização confirmado. Barba branca em U, nariz mantido." },
+    { name: "Masculino, Jovem", role: "Corpo magro", status: "active",
+      note: "Cabeça aprovada 17 set. Retopo e UV feitos. Falta rig, bake, textura, LODs." },
+    { name: "Masculino, Idoso", role: "Corpo maior", status: "waiting",
+      note: "Cabeça high poly aprovada 17 set. Nada de low poly ainda. Começa depois do Jovem." },
     { name: "Masculino, Meia-idade", role: "Corpo magro · depois", status: "waiting",
       note: "Reusa o corpo do Jovem. Só cabeça." },
     { name: "Masculino, Velho", role: "Corpo maior · depois", status: "waiting",
@@ -29,16 +29,28 @@ window.PROJECT = {
 
   groups: [
     {
-      title: "Jovem + Idoso · entrega 15 set",
+      title: "Jovem · completar primeiro",
       tasks: [
-        { t: "Cabeças do Jovem e do Idoso. Nariz reto primeiro, envelhecer em volta", s: "active", why: "Jovem aprovado 17 set. Idoso: Daniel \"nice! a bit less disney\" no mesmo dia. Estilização confirmada nos dois." },
-        { t: "Blockout do corpo magro (Jovem)", s: "next" },
-        { t: "Blockout do corpo maior (Idoso)", s: "next" },
-        { t: "Roupa: robe branco com tassel, pano + cordão em toggle, cabelo do Jovem em toggle, pés com sandália numa mesh", s: "active", why: "Daniel resolveu no arquivo 11 set: gola chata, linha vertical da abertura, costuras diagonais até o ombro. Mão e punho também." },
-        { t: "Screenshots do blockout para o Daniel", s: "next" },
-        { t: "Refino e polypaint", s: "active", why: "High poly com detalhe enviado 24 set. Retopo atrasada." },
-        { t: "Retopo, bake, albedo + mixmap + normal", s: "active", why: "Daniel 24 set: rosto, olhos e boca num bloco de UV isolado e igual em todos, para variante de cabeça virar troca de textura. Decide no layout, antes do bake." },
-        { t: "Rig, teste de pose extrema, handoff no SVN", s: "next" },
+        { t: "Retopo", s: "done" },
+        { t: "UV, com rosto, olhos e boca num bloco isolado", s: "done" },
+        { t: "Rig e pesos, mãos", s: "active" },
+        { t: "Bake", s: "next" },
+        { t: "Textura: albedo, mixmap, normal", s: "next" },
+        { t: "LOD1", s: "next" },
+        { t: "LOD2 com rig", s: "next" },
+        { t: "Teste de pose extrema, handoff no SVN", s: "next" },
+      ]
+    },
+    {
+      title: "Idoso · depois do Jovem",
+      tasks: [
+        { t: "Retopo do corpo maior e da cabeça", s: "next" },
+        { t: "UV, mesmo layout do Jovem", s: "next" },
+        { t: "Rig por Data Transfer a partir do Jovem, ajustar", s: "next" },
+        { t: "Bake", s: "next" },
+        { t: "Textura, robe reaproveitado", s: "next" },
+        { t: "LOD1, LOD2 com rig", s: "next" },
+        { t: "Teste de pose extrema, handoff no SVN", s: "next" },
       ]
     },
   ],
