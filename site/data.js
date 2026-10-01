@@ -1,10 +1,10 @@
 // Monitor do projeto UAE. Edite este arquivo para atualizar o site.
 // Status: done | active | next | blocked | waiting | verify
 window.PROJECT = {
-  version: 4,
+  version: 5,
   updated: "2026-09-01",
-  deadline: "1 de outubro, fim do contrato",
-  deadlineISO: "2026-10-01",
+  deadline: "revisão 2 out",
+  deadlineISO: "2026-10-02",
   drive: "https://drive.google.com/drive/folders/1fuf5EL2fl3Z_0pIhtapwFMalTcG7BDKf",
   repo: "https://github.com/vinicavalcntiart/viniwork-eline/tree/claude/uae-character-project-r0w45n",
   articleStage: 5,
@@ -17,42 +17,26 @@ window.PROJECT = {
       note: "Entregue no SVN. High, low, LODs, rig, três variantes de textura. Daniel: \"looking great\"." },
     { name: "UAE Young Female", role: "18 anos", status: "done",
       note: "Entregue no SVN. Duas variantes de textura. Daniel: \"this feels dead on\"." },
-    { name: "Masculino, Jovem", role: "Corpo magro", status: "active",
-      note: "Cabeça aprovada 17 set. Retopo e UV feitos. Falta rig, bake, textura, LODs." },
-    { name: "Masculino, Idoso", role: "Corpo maior", status: "waiting",
-      note: "Cabeça high poly aprovada 17 set. Nada de low poly ainda. Começa depois do Jovem." },
-    { name: "Masculino, Meia-idade", role: "Corpo magro · depois", status: "waiting",
-      note: "Reusa o corpo do Jovem. Só cabeça." },
+    { name: "Masculino, Jovem", role: "Corpo magro", status: "done",
+      note: "Entregue 1 out. Nota do Alex na boca, revisão 2 out." },
+    { name: "Masculino, Idoso", role: "Corpo maior", status: "done",
+      note: "Entregue 1 out. Barba branca em U." },
+    { name: "Masculino, Meia-idade", role: "Corpo magro", status: "done",
+      note: "Entregue 1 out. Corpo do Jovem, barba curta." },
     { name: "Masculino, Velho", role: "Corpo maior · depois", status: "waiting",
       note: "Reusa o corpo do Idoso. Só cabeça." },
   ],
 
   groups: [
     {
-      title: "Jovem · completar primeiro",
+      title: "Masculinos · entregues 1 out",
       tasks: [
-        { t: "Retopo", s: "done" },
-        { t: "UV, com rosto, olhos e boca num bloco isolado", s: "done" },
-        { t: "Rig e pesos, mãos", s: "active" },
-        { t: "Bake", s: "next" },
-        { t: "Textura: albedo, mixmap, normal", s: "next" },
-        { t: "LOD1", s: "next" },
-        { t: "LOD2 com rig", s: "next" },
-        { t: "Teste de pose extrema, handoff no SVN", s: "next" },
+        { t: "Jovem, Meia-idade e Idoso: retopo, UV, rig, bake, textura, LODs", s: "done", why: "Entregue no dia do contrato. Daniel colocando no jogo." },
+        { t: "Revisão com o Daniel, 2 out", s: "next", why: "Nota do Alex: Jovem sem barba lê confuso, canto da boca. Daniel já tem plano." },
+        { t: "Regra de processo: Daniel vê primeiro em DM, canal do time só depois", s: "done", why: "1 out." },
       ]
     },
-    {
-      title: "Idoso · depois do Jovem",
-      tasks: [
-        { t: "Low poly por shrinkwrap do Jovem no high poly do Idoso, corpo e cabeça. UVs herdadas", s: "next" },
-        { t: "Barba como casca simples", s: "next" },
-        { t: "Rig por Data Transfer a partir do Jovem, ajustar", s: "next" },
-        { t: "Bake", s: "next" },
-        { t: "Textura, robe reaproveitado", s: "next" },
-        { t: "LOD1, LOD2 com rig", s: "next" },
-        { t: "Teste de pose extrema, handoff no SVN", s: "next" },
-      ]
-    },
+
     {
       title: "DCT · fêmeas entregues · 28 set",
       tasks: [

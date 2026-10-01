@@ -4,6 +4,38 @@ Daniel's reactions to WIPs, dated, verbatim where possible. Newest first.
 
 ---
 
+## 1 Oct 2026 · Three males delivered. Posted to the team. Daniel's process note
+
+Delivered on the contract day: Young clean-shaven, Middle with short beard,
+Elderly with white beard. Full body, textured, head cloth with knitted weave,
+braided cord, plain robe with stitching, sandals. Posted to endstar-dev-team
+at 7:20 PM.
+
+**Alex Bascom, 7:36 PM:** "awesome! something about the young-shaven version
+make him look... maybe confused? not sure what it is, something with the mouth."
+
+**Daniel, DM 7:41 PM:** had wanted it not posted to the open channel before he
+saw it. "now im implementing the engineers feedback without me even having seen
+the finished piece yet? not a great position to be in." Vini apologised, short.
+
+**Daniel, 7:46 PM:** "No worries, but definitely we'll want to be on the same
+page first before we 'release' to the team just in case. Alex's feedback is good
+btw, I think there's some stuff we can do to lessen that confused look, but first
+I want to get these guys in the game, and we'll review tomorrow at the review
+meeting." Then "indeed, thanks Vini".
+
+Read: a process note, not an art note. No art notes at all. Characters going into
+the game as delivered. Review meeting 2 Oct.
+
+Process rule from here: Daniel sees it first, in DM. Team channel only after he
+says so.
+
+Alex's note: resting mouth on the Young has corners slightly down with a lifted
+brow, which reads as puzzled. Small adjustment at the mouth corners. Daniel
+already has a plan for it.
+
+---
+
 ## 29 Sep 2026 · DM to Dan, date committed
 
 Vini, 6:08 PM: "Hey Dan, just to give heads up, I'll send some updates soon and
