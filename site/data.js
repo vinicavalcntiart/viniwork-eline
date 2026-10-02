@@ -1,10 +1,10 @@
 // Monitor do projeto UAE. Edite este arquivo para atualizar o site.
 // Status: done | active | next | blocked | waiting | verify
 window.PROJECT = {
-  version: 5,
+  version: 6,
   updated: "2026-09-01",
-  deadline: "revisão 2 out",
-  deadlineISO: "2026-10-02",
+  deadline: "ajustes pós-revisão",
+  deadlineISO: "2026-10-09",
   drive: "https://drive.google.com/drive/folders/1fuf5EL2fl3Z_0pIhtapwFMalTcG7BDKf",
   repo: "https://github.com/vinicavalcntiart/viniwork-eline/tree/claude/uae-character-project-r0w45n",
   articleStage: 5,
@@ -29,11 +29,17 @@ window.PROJECT = {
 
   groups: [
     {
-      title: "Masculinos · entregues 1 out",
+      title: "Revisão 2 out · ajustes nos masculinos",
       tasks: [
-        { t: "Jovem, Meia-idade e Idoso: retopo, UV, rig, bake, textura, LODs", s: "done", why: "Entregue no dia do contrato. Daniel colocando no jogo." },
-        { t: "Revisão com o Daniel, 2 out", s: "next", why: "Nota do Alex: Jovem sem barba lê confuso, canto da boca. Daniel já tem plano." },
-        { t: "Regra de processo: Daniel vê primeiro em DM, canal do time só depois", s: "done", why: "1 out." },
+        { t: "Cabelo, barba e sobrancelha pretos em todos. Meia-idade está castanho", s: "next", why: "Textura. Minutos. UAE odeia castanho, regra travada." },
+        { t: "Reduzir a trama da textura do pano e do robe", s: "next", why: "Normal e mixmap. Rápido." },
+        { t: "Curvatura na textura", s: "next", why: "Mapa de curvatura no mixmap. Rápido." },
+        { t: "Botões: estão estranhos", s: "next", why: "Geometria pequena ou textura. Rápido." },
+        { t: "Jovem: afastar os olhos um pouco", s: "next", why: "Move brush no low poly, rebake da região do rosto." },
+        { t: "Jovem: simplificar a área nasolabial, dobra do sorriso envelhece", s: "next", why: "Mesmo passe de sculpt dos olhos. Fonte do \"confuso\" junto com a boca." },
+        { t: "Dobras nos pulsos", s: "next", why: "Sculpt no punho, rebake." },
+        { t: "Pescoço atravessando o robe", s: "next", why: "Pesos ou geometria. Testar na pose." },
+        { t: "Rig: barba e pernas não funcionam", s: "next", why: "Barba precisa seguir o osso da cabeça. Pernas: pesos do robe nas pernas, gradiente suave. Teste de pose extrema." },
       ]
     },
 
@@ -110,6 +116,7 @@ window.PROJECT = {
     ["Joia", "Ouro escuro envelhecido, igual à UAE Female aprovada."],
     ["Roupa masculina", "Toda branca, lisa. Sem colarinho, sem bordado. Gola chata, linha vertical da abertura, tassel, costuras diagonais da gola até o ombro. Daniel esculpiu, 11 set 2026."],
     ["Jovem, barba", "Sem barba. Lê 17 a 18. Daniel esculpiu, 11 set 2026."],
+    ["Cabelo masculino", "Sempre preto. Barba e sobrancelha também. Castanho não. Daniel, 2 out 2026."],
     ["Pano da cabeça", "Nunca nos ombros. Sempre cobrindo as orelhas. Toda pose. Daniel, 1 set 2026."],
   ],
 

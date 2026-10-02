@@ -4,6 +4,24 @@ Daniel's reactions to WIPs, dated, verbatim where possible. Newest first.
 
 ---
 
+## 2 Oct 2026 · Review meeting · Daniel's notes on the three males
+
+"Definitely a lot to adjust." Then the list:
+
+- Beard and legs not working in the rig
+- Buttons look strange
+- Reduce the texture pattern (the weave is too strong)
+- Missing folds at the wrists, missing curvature in the texture
+- Neck clipping
+- Young: separate the eyes a little to kill the confused look
+- Young: simplify the nasolabial area, the smile fold reads very odd and makes him look old
+- Hair always black. UAE hates brown hair. (The Middle variant's beard and brows are brown.)
+
+No note on silhouette, dress design, head cloth, cord, nose, or stylization level.
+All adjustment notes. Nothing structural.
+
+---
+
 ## 1 Oct 2026 · Three males delivered. Posted to the team. Daniel's process note
 
 Delivered on the contract day: Young clean-shaven, Middle with short beard,
