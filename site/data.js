@@ -31,7 +31,7 @@ window.PROJECT = {
     {
       title: "Revisão 2 out · ajustes nos masculinos",
       tasks: [
-        { t: "Cabelo, barba e sobrancelha pretos em todos. Meia-idade está castanho", s: "next", why: "Textura. Minutos. UAE odeia castanho, regra travada." },
+        { t: "Jovem: cabelo e sobrancelha pretos, não castanho", s: "next", why: "Textura. Minutos. UAE odeia castanho." },
         { t: "Reduzir a trama da textura do pano e do robe", s: "next", why: "Normal e mixmap. Rápido." },
         { t: "Curvatura na textura", s: "next", why: "Mapa de curvatura no mixmap. Rápido." },
         { t: "Botões: estão estranhos", s: "next", why: "Geometria pequena ou textura. Rápido." },
@@ -116,7 +116,7 @@ window.PROJECT = {
     ["Joia", "Ouro escuro envelhecido, igual à UAE Female aprovada."],
     ["Roupa masculina", "Toda branca, lisa. Sem colarinho, sem bordado. Gola chata, linha vertical da abertura, tassel, costuras diagonais da gola até o ombro. Daniel esculpiu, 11 set 2026."],
     ["Jovem, barba", "Sem barba. Lê 17 a 18. Daniel esculpiu, 11 set 2026."],
-    ["Cabelo masculino", "Sempre preto. Barba e sobrancelha também. Castanho não. Daniel, 2 out 2026."],
+    ["Jovem, cabelo", "Preto, não castanho. Daniel, 2 out 2026."],
     ["Pano da cabeça", "Nunca nos ombros. Sempre cobrindo as orelhas. Toda pose. Daniel, 1 set 2026."],
   ],
 

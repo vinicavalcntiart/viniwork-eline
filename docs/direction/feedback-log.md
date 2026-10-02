@@ -15,7 +15,7 @@ Daniel's reactions to WIPs, dated, verbatim where possible. Newest first.
 - Neck clipping
 - Young: separate the eyes a little to kill the confused look
 - Young: simplify the nasolabial area, the smile fold reads very odd and makes him look old
-- Hair always black. UAE hates brown hair. (The Middle variant's beard and brows are brown.)
+- Young: hair black. UAE hates brown hair. Applies to the Young only.
 
 No note on silhouette, dress design, head cloth, cord, nose, or stylization level.
 All adjustment notes. Nothing structural.
