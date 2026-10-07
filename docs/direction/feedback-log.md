@@ -4,6 +4,16 @@ Daniel's reactions to WIPs, dated, verbatim where possible. Newest first.
 
 ---
 
+## 7 Oct 2026 · Young female, DCT corrections · Slack DM
+
+Vini sent the Young female with the DCT adjustments (gold from Tim in the albedo, done without going back to the high poly).
+
+- Dan: "awesome". "When you upload to svn do this as a new variant though, so we can keep the old one."
+- Vini said the old lady is next and the male adjustments start tomorrow. No pushback.
+- Dan on Lee's divers: the heads were atlased on opposite sides of the sheet at different scales, so he has to bake his head changes from one to the other. Same reason behind his 24 Sep rule that head, eyes and mouth sit in one consistent UV region.
+
+---
+
 ## 2 Oct 2026 · Review meeting · Daniel's notes on the three males
 
 "Definitely a lot to adjust." Then the list:
