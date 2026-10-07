@@ -8,8 +8,10 @@ Daniel's reactions to WIPs, dated, verbatim where possible. Newest first.
 
 Vini sent the Young female with the DCT adjustments (gold from Tim in the albedo, done without going back to the high poly).
 
+- 18:23 Dan pinged in channel: "how are we doing on the character texture updates?" 18:24 Vini: "I'm going to send to you in a min". Delivered 19:18, 54 min after the "in a min".
+
 - Dan: "awesome". "When you upload to svn do this as a new variant though, so we can keep the old one."
-- Vini said the old lady is next and the male adjustments start tomorrow. No pushback.
+- Vini said the old lady is next and the male adjustments start tomorrow. No pushback on the delivery delay.
 - Dan on Lee's divers: the heads were atlased on opposite sides of the sheet at different scales, so he has to bake his head changes from one to the other. Same reason behind his 24 Sep rule that head, eyes and mouth sit in one consistent UV region.
 
 ---
