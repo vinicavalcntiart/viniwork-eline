@@ -156,3 +156,17 @@ ZBrush sculpt screenshot look, matte clay with polypaint, flat grey background. 
 Checar antes de usar: nariz igual ao do Jovem, sem ruga em cima dele. Barba em
 U redondo, sem ponta. Íris coberta em cima. Osso aparecendo na têmpora e na
 maçã. Gola lisa. Orelhas cobertas, pano fora dos ombros.
+
+## Pattern: rosa bordada do vestido azul (DCT, Zuhba), 7 out 2026
+
+Anchor: recorte do vestido azul como `@img2`. Sem `@img1` (versão detalhada demais, contamina).
+
+```
+Recreate the exact embroidered rose motif from @img2. Copy it, do not redesign it.
+
+Match @img2 one to one: same two small roses, same size ratio, same spacing, same tilt, same silhouette. Each rose is a compact, irregular rounded blossom made of a few chunky satin-stitch petals in pale gold and cream thread, with a tiny dusty rose and burgundy center, and a short thin stem curving down to the left ending in one small leaf. The left rose leans slightly, the right rose stands upright with a notched top edge. Background is flat solid royal blue, same tone as @img2.
+
+Keep the same low level of detail as @img2. Few large shapes, simple readable silhouette, the look of a small machine-embroidered appliqué seen from a distance. Flat color fills only, three gold tones plus the dark center, clean sharp edges, ready for vector image trace. Front view, perfectly flat, no fabric texture, no thread strands, no shadows, no lighting, no perspective.
+
+Do not add petals, do not add leaves, do not add outlines, do not make it botanical or illustrated, do not make it realistic, do not add sparkle or metallic shine, do not change the colors, do not change the composition. Ultra high resolution, crisp edges.
+```
