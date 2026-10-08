@@ -4,6 +4,15 @@ Daniel's reactions to WIPs, dated, verbatim where possible. Newest first.
 
 ---
 
+## 8 Oct 2026 · Young female, abaya · Dan
+
+Dan re-read the DCT notes: the Young female note was about the head covering, not patterns. "The abaya on the far left is modern, should be the draped one."
+
+- Vini's update fixed the burqa colour (gold) and replaced the dress textures, but kept the shoulder-worn, sleeved abaya with wrapped hijab. The DCT fix is the draped abaya worn from the head, like the other three females.
+- Dan's call: ship what we have now. Make a separate variant with the draped abaya and shayla afterwards, and tell DCT "we got through almost all of this, but this change is significant so it will be coming later in another update."
+
+---
+
 ## 7 Oct 2026 · Young female, DCT corrections · Slack DM
 
 Vini sent the Young female with the DCT adjustments (gold from Tim in the albedo, done without going back to the high poly).
