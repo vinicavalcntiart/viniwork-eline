@@ -4,6 +4,15 @@ Daniel's reactions to WIPs, dated, verbatim where possible. Newest first.
 
 ---
 
+## 14 Oct 2026 · Young female, draped shayla and neck · Dan
+
+Vini asked whether to follow the DCT reference photo for the Young female (draped shayla, neck open) or keep the neck covered. Draped shayla is going in either way.
+
+- Dan (4:37 PM): "She said that image is the traditional way and sent me something similar. She's going to check for more tomorrow. But it seems like you are good to go on it."
+- Reading: the DCT contact confirmed the reference photo, neck showing, as the traditional way. More references expected the next day.
+
+---
+
 ## 8 Oct 2026 · Young female, abaya · Dan
 
 Dan re-read the DCT notes: the Young female note was about the head covering, not patterns. "The abaya on the far left is modern, should be the draped one."
