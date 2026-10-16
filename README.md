@@ -38,6 +38,7 @@ Edit `site/data.js` to update tasks, sources, and figures. The page renders from
 | `docs/article/` | The article and its supporting contextual report |
 | `docs/direction/` | Briefs and decisions from Daniel, dated |
 | `docs/manual/` | UAE Character Art Direction Manual source and build |
+| `docs/tortoisesvn/` | TortoiseSVN manual mirror (Markdown) and SVN slowness diagnosis |
 | `docs/process/` | Production process documents |
 | `docs/reference/` | Research briefs and cultural evidence base |
 | `site/` | Task monitor, static site published to GitHub Pages |
