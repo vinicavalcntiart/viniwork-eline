@@ -1,8 +1,13 @@
 # Por que o SVN está lento: diagnóstico pelo manual
 
 Baseado no manual oficial do TortoiseSVN espelhado em [`manual/`](manual/).
-Cada causa aponta a seção de origem. Contexto: máquina com pouca RAM, working
-copy de arte 3D (arquivos binários grandes: .ztl, .blend, .fbx, texturas).
+Cada causa aponta a seção de origem. Contexto: máquina potente (RAM e CPU não
+são gargalo), uso pela extensão do Windows Explorer, working copy de arte 3D
+(arquivos binários grandes: .ztl, .blend, .fbx, texturas).
+
+Com hardware de sobra, a lentidão do TortoiseSVN quase nunca é processamento.
+É **I/O e latência**: disco sendo varrido, rede, servidor, e a extensão
+consultando status de arquivos dentro do próprio Explorer.
 
 Não tenho acesso ao seu computador, então isto é uma lista de causas prováveis
 em ordem de impacto, com o teste para confirmar cada uma.
@@ -13,16 +18,17 @@ em ordem de impacto, com o teste para confirmar cada uma.
 
 **O que é.** Os ícones verdes/vermelhos no Explorer vêm de um processo separado,
 `TSVNCache.exe`. No modo *Default* ele "observa todos os drives" e recalcula o
-status sempre que um arquivo muda. Usa 10 a 50 MB de RAM e roda o tempo todo,
-mesmo sem você estar usando o SVN.
+status sempre que um arquivo muda. Roda o tempo todo, com a menor prioridade
+possível, por isso os ícones podem demorar segundos para atualizar.
 Fonte: [Icon Overlay Settings](manual/tsvn-dug-settings.md#icon-overlay-settings).
 
-**Por que pesa no seu caso.** Arquivos de arte mudam o tempo inteiro (autosave do
-ZBrush, Blender, exports, caches de bake). Cada gravação faz o TSVNCache reescanear.
-Com pouca RAM, isso compete com o software 3D e o Explorer trava.
+**Por que pesa no seu caso.** Não é RAM, é disco. Arquivos de arte mudam o tempo
+inteiro (autosave do ZBrush, Blender, exports, caches de bake). Cada gravação faz
+o TSVNCache reler o status de pastas com arquivos de centenas de MB. Enquanto
+isso, o Explorer espera a resposta para desenhar ícones e o menu de contexto.
 
-**Teste.** Abra o Gerenciador de Tarefas e veja CPU, disco e memória do
-`TSVNCache.exe` enquanto trabalha.
+**Teste.** Gerenciador de Tarefas → aba Desempenho → Monitor de Recursos → Disco.
+Se `TSVNCache.exe` aparece no topo de leitura enquanto o Explorer engasga, é ele.
 
 **Correção (Settings → Icon Overlays):**
 - Desmarque todos os tipos de drive e coloque em **Include Paths** só a pasta da
@@ -37,8 +43,35 @@ Com pouca RAM, isso compete com o software 3D e o Explorer trava.
   Include:
   D:\eline\uae
   ```
-- Se ainda pesar: troque o cache para **Shell** (~1 MB de RAM, só a pasta aberta)
-  ou **None** (zero custo, sem ícones; use *Check for Modifications* para ver o status).
+- Se ainda pesar: troque o cache para **Shell** (só a pasta aberta, status em
+  tempo real) ou **None** (o manual: "não deixa o Explorer lento de forma alguma";
+  sem ícones, use *Check for Modifications* para ver o status).
+- Marque **Disable status cache for elevated processes**. Se algum programa roda
+  como administrador (instalador, launcher, às vezes o próprio Explorer), sobe um
+  segundo `TSVNCache.exe` varrendo as mesmas pastas em paralelo.
+
+## 1b. A extensão dentro do Explorer e das janelas Abrir/Salvar
+
+Pontos específicos da extensão do Explorer, mesma página do manual:
+
+- **Abrir/Salvar dos programas 3D.** Por padrão os ícones e o menu do TortoiseSVN
+  carregam também nas janelas *Abrir/Salvar* de todo programa (ZBrush, Blender,
+  Substance, Photoshop). Abrir um arquivo dentro de uma pasta grande da working copy
+  dispara consulta de status. Correção: marcar **Show overlays and context menu
+  only in explorer**.
+- **Botão direito lento.** O menu de contexto consulta o status do item clicado.
+  Em Settings → Context Menu: marcar **Hide menus for unversioned paths** e
+  listar pastas onde o menu não deve aparecer (renders, exports). No Windows 11
+  existe uma página separada para o menu novo.
+  Fonte: [Context Menu Settings](manual/tsvn-dug-settings.md#context-menu-settings).
+- **Ícones somem ou ficam errados.** O Windows só tem 15 slots de overlay e usa 4.
+  OneDrive, Dropbox, Google Drive e outros brigam pelos 11 restantes; quem perde
+  não mostra ícone. Não deixa lento, mas confunde o diagnóstico ("o status não
+  atualiza"). Em Settings → Icon Overlays → **Icon Handlers** dá para desligar os
+  overlays que você não usa (ex. *Unversioned*, *Ignored*).
+  Fonte: [Implementation Details](manual/tsvn-app-internals.md#icon-overlays).
+- **Drive SUBST.** Se a working copy é acessada por uma letra criada com `subst`,
+  os ícones podem nunca atualizar. Excluir o caminho original e deixar só o SUBST.
 
 ## 2. Cópias "pristine": cada arquivo existe duas vezes
 
@@ -130,18 +163,12 @@ lenta para repositórios grandes". Use **V2** (Settings → Dialogs 3).
 1. Onde está a working copy? Se estiver em pasta sincronizada ou rede, mover para
    disco local resolve mais do que todo o resto.
 2. Cleanup com **Fix time stamps** + **Vacuum pristine copies**.
-3. Restringir o TSVNCache com Include/Exclude Paths (ou trocar para Shell).
+3. Restringir o TSVNCache com Include/Exclude Paths e marcar **Show overlays and
+   context menu only in explorer**. Para isolar o problema: cache em **None** por
+   um dia. Se o Explorer ficar rápido, a causa é a extensão; se commit/update
+   continuarem lentos, a causa é rede ou servidor.
 4. Ligar log cache.
 5. Próximo checkout: sparse, e sem pristine copies se tiver o 1.15.
-
-## Sobre usar pelo navegador
-
-TortoiseSVN é extensão do Windows Explorer; não existe versão web. O que dá para
-fazer no navegador é **ler** o repositório, se o servidor da E-Line expõe
-HTTP(S) (a URL do repositório abre num browser e lista os arquivos). Editar e
-commitar exige um cliente local. Se a RAM é o gargalo, os passos 1 e 3 acima são
-os que mais liberam memória, e o modo **None** do cache zera o custo do
-TSVNCache.
 
 Para eu fechar o diagnóstico, preciso de: versão do TortoiseSVN, caminho da
 working copy, tamanho da pasta `.svn`, protocolo da URL (`https://`, `svn://`
