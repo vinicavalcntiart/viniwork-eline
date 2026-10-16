@@ -14,6 +14,47 @@ em ordem de impacto, com o teste para confirmar cada uma.
 
 ---
 
+## 0. Repo-Browser lento (seu caso principal)
+
+O Repo-Browser não usa working copy nem `TSVNCache`. Tudo que ele faz é
+requisição ao servidor. Se ele está lento, a causa está em **rede, servidor ou
+nas duas opções abaixo**, não no seu computador.
+
+**O que o manual diz** (Settings → Dialogs 3):
+- **Pre-fetch folders for faster browsing** (ligado por padrão): busca em segundo
+  plano o conteúdo de todas as pastas visíveis. "Alguns servidores não aguentam as
+  várias requisições ou, mal configurados, tratam isso como abuso e começam a
+  bloquear." Desligar.
+- **Show externals** (ligado por padrão): resolve cada `svn:externals` ao listar.
+  "Também pode estressar servidores fracos." Desligar se o repo usa externals.
+Fonte: [Dialog Settings 3](manual/tsvn-dug-settings.md#tortoisesvn-dialog-settings-3).
+
+**Rede** (Settings → Network): proxy configurado errado força desvio ou timeout.
+Se a URL é `svn+ssh://`, cada operação abre uma conexão SSH nova; o manual
+recomenda TortoisePlink e Pageant para não renegociar senha a cada vez.
+Fonte: [Network Settings](manual/tsvn-dug-settings.md#network-settings).
+
+**[EXTENSION] Latência (fora do manual, conhecimento geral de SVN).** O protocolo
+SVN sobre HTTP faz muitas idas e voltas pequenas por operação. Se o servidor da
+E-Line está nos EUA, cada ida e volta Recife → servidor custa ~120-200 ms, e uma
+listagem de pasta pode fazer dezenas delas. Hardware não compensa isso. Para
+arquivos grandes, o limite é o **upload** da sua internet, que no Brasil
+costuma ser bem menor que o download.
+
+**Teste para separar as causas:**
+1. Cole a URL do repositório no navegador. Se a listagem no browser também
+   demora, é servidor ou rede. Se o browser é rápido e o Repo-Browser lento, são
+   as opções de pre-fetch/externals.
+2. `ping` e `tracert` para o host do servidor: acima de ~150 ms, a latência
+   explica a lentidão de navegação entre pastas.
+3. Separe "demora para listar pasta" (latência/pre-fetch) de "demora para
+   transferir arquivo" (banda, principalmente upload).
+4. Lembre que arrastar vários itens de uma vez gera **um commit por item**, cada
+   um com seu próprio ciclo de requisições. Agrupar numa pasta e arrastar a pasta
+   faz um commit só.
+
+---
+
 ## 1. TSVNCache.exe (cache de ícones) varrendo tudo
 
 **O que é.** Os ícones verdes/vermelhos no Explorer vêm de um processo separado,
