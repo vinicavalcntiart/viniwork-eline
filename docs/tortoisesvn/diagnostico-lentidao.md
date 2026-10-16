@@ -41,6 +41,19 @@ listagem de pasta pode fazer dezenas delas. Hardware não compensa isso. Para
 arquivos grandes, o limite é o **upload** da sua internet, que no Brasil
 costuma ser bem menor que o download.
 
+**Sintoma observado (16 out): janelas pretas de console ao abrir o Repo-Browser.**
+O manual diz que o TortoisePlink existe justamente por ser "compilado sem janela,
+para não aparecer uma caixa DOS a cada autenticação". Uma janela preta por conexão
+indica que o SVN está chamando um cliente SSH de console (ssh.exe do Windows,
+plink.exe comum ou outro) em vez do TortoisePlink. Com pre-fetch ligado, o
+Repo-Browser abre várias conexões, e cada uma faz um handshake SSH completo: daí
+várias janelas e a lentidão. Correção: em Settings → Network → SSH client,
+preencher `"C:\Program Files\TortoiseSVN\bin\TortoisePlink.exe"`. Se persistir,
+procurar uma linha `ssh =` na seção `[tunnels]` do arquivo de configuração
+(General → Subversion configuration file → Edit) e a variável de ambiente
+`SVN_SSH`. Observação: a última versão estável no site oficial é 1.14.9; uma
+"1.15" só existe como nightly build, não assinada e de desenvolvimento.
+
 **Teste para separar as causas:**
 1. Cole a URL do repositório no navegador. Se a listagem no browser também
    demora, é servidor ou rede. Se o browser é rápido e o Repo-Browser lento, são
