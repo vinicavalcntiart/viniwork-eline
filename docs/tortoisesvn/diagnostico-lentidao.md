@@ -53,7 +53,9 @@ procurar uma linha `ssh =` na seção `[tunnels]` do arquivo de configuração
 (General → Subversion configuration file → Edit) e a variável de ambiente
 `SVN_SSH`. **Resultado (16 out): preencher o TortoisePlink piorou, abriram mais
 janelas. Configuração revertida. Como o sintoma começou com a atualização para
-a "1.15", a recomendação passou a ser voltar para a 1.14.9 estável.** Observação: a última versão estável no site oficial é 1.14.9; uma
+a "1.15", a recomendação passou a ser voltar para a 1.14.9 estável.** Descartados no mesmo dia: arquivo
+`config` todo no padrão (nenhuma linha `ssh =` ativa em `[tunnels]`) e variável
+`SVN_SSH` inexistente. Causa restante: a própria build 1.15. Observação: a última versão estável no site oficial é 1.14.9; uma
 "1.15" só existe como nightly build, não assinada e de desenvolvimento.
 
 **Teste para separar as causas:**
