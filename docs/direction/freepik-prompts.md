@@ -170,3 +170,49 @@ Keep the same low level of detail as @img2. Few large shapes, simple readable si
 
 Do not add petals, do not add leaves, do not add outlines, do not make it botanical or illustrated, do not make it realistic, do not add sparkle or metallic shine, do not change the colors, do not change the composition. Ultra high resolution, crisp edges.
 ```
+
+## Middle e Old a partir do Elderly aprovado, 17 out 2026
+
+Anchor: high poly do Elderly no ZBrush como `@img1`. Middle divide o corpo magro
+com o Young. Old divide o corpo maior com o Elderly. Cabelo preto vale só para o
+Young.
+
+### Middle
+
+```
+Same character, same front-facing bust framing, same head cloth, same black cord, same plain white robe with no collar and no embroidery, same lighting and grey background as @img1. Make this exact man younger, about forty years old. Keep the sculpt style of @img1: stylized, clean surfaces, real anatomical structure underneath, never smooth or doll-like.
+
+NOSE, UNCHANGED: the nose keeps exactly the shape in @img1, long, straight bridge, pointed tip angling down, narrow base. No widening, no bumps, no surface detail on it.
+
+AGE: firm skin over clear bone structure. Defined cheekbones, firm jawline, no sagging. Upper lids still cover the top of the iris. Only a light fold from the sides of the nose toward the mouth corners and faint lines at the outer eye corners. No deep wrinkles, no hollow temples, no loose skin.
+
+BEARD: a short, neatly trimmed dark beard, almost black, following the jawline with a connected moustache. Sculpted as one clean simplified mass with crisp edges, the same stylization as the beard in @img1, but much shorter and closer to the face. No individual hairs. Eyebrows dark, clean and defined.
+
+BUILD: slimmer than @img1. A slim adult build, narrower shoulders, lean neck with visible structure, flatter chest. Not muscular.
+
+HEAD CLOTH AND ROBE: exactly as in @img1. Cloth covering both ears completely, hanging clear of the shoulders, black double cord on the crown. Robe pure white, flat round neckline with no collar, no embroidery, only fine stitching lines, same tassel.
+
+SKIN: same warm tone as @img1, not darkened.
+
+ZBrush sculpt screenshot look, matte clay with polypaint, flat grey background. Bust only, one single figure, no text.
+```
+
+### Old
+
+```
+Same character, same front-facing bust framing, same head cloth, same black cord, same plain white robe with no collar and no embroidery, same lighting and grey background as @img1. Make this exact man slightly younger, about fifty-five years old. Keep the sculpt style of @img1: stylized, clean surfaces, real anatomical structure underneath, never smooth or doll-like.
+
+NOSE, UNCHANGED: the nose keeps exactly the shape in @img1, long, straight bridge, pointed tip angling down, narrow base. No widening, no bumps, no surface detail on it.
+
+AGE: between a middle-aged man and @img1. Upper lids heavier and covering the top of the iris, a clear fold from the sides of the nose down to the mouth corners, a few forehead lines, lines at the outer eye corners. The cheek and jaw still mostly firm, only slightly softened. Less deep than @img1, fewer and shallower wrinkles, temples not hollow.
+
+BEARD: a full beard, salt and pepper, mostly grey with dark strands, the same shape and stylization as the beard in @img1, built from a few large simplified clumps with crisp edges, but slightly shorter. Moustache connected into the beard. Eyebrows grey with some dark, thick.
+
+BUILD: the same heavier build as @img1. Thick neck, broad sloping shoulders, fuller upper chest. A solid older body, not muscular.
+
+HEAD CLOTH AND ROBE: exactly as in @img1. Cloth covering both ears completely, hanging clear of the shoulders, black double cord on the crown. Robe pure white, flat round neckline with no collar, no embroidery, only fine stitching lines, same tassel.
+
+SKIN: same warm tone as @img1, not darkened.
+
+ZBrush sculpt screenshot look, matte clay with polypaint, flat grey background. Bust only, one single figure, no text.
+```
