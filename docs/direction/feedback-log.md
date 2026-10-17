@@ -4,6 +4,14 @@ Daniel's reactions to WIPs, dated, verbatim where possible. Newest first.
 
 ---
 
+## 17 Oct 2026 · DCT deadline · Slack DM, 1:22 AM
+
+Dan, working the weekend: "oct 20 is our deadline for dct after all this time." His list includes getting the males exported and set up in Greg's maps with him, plus the water shader, Scott's props, animations and asset swaps.
+
+- Vini offered: he feels bad he can't export to Unity too, since he could leave everything there for review and Dan would just publish.
+
+---
+
 ## 14 Oct 2026 · Young female, draped shayla and neck · Dan
 
 Vini asked whether to follow the DCT reference photo for the Young female (draped shayla, neck open) or keep the neck covered. Draped shayla is going in either way.

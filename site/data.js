@@ -3,8 +3,8 @@
 window.PROJECT = {
   version: 6,
   updated: "2026-09-01",
-  deadline: "entrega final",
-  deadlineISO: "2026-10-09",
+  deadline: "prazo DCT",
+  deadlineISO: "2026-10-20",
   drive: "https://drive.google.com/drive/folders/1fuf5EL2fl3Z_0pIhtapwFMalTcG7BDKf",
   repo: "https://github.com/vinicavalcntiart/viniwork-eline/tree/claude/uae-character-project-r0w45n",
   articleStage: 5,
