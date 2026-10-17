@@ -216,3 +216,26 @@ SKIN: same warm tone as @img1, not darkened.
 
 ZBrush sculpt screenshot look, matte clay with polypaint, flat grey background. Bust only, one single figure, no text.
 ```
+
+### Old, iteração 2
+
+A primeira versão saiu igual ao Elderly ("slightly younger", "same beard shape").
+Esta força a diferença: cinquenta anos, barba curta e escura, rosto firme.
+
+```
+Same character as @img1, same front-facing bust framing, same head cloth, same black cord, same plain white robe, same lighting and grey background. Make him clearly younger: about fifty years old, a man in his prime, not elderly. He must look at least twenty years younger than @img1.
+
+BEARD, CLEARLY DIFFERENT FROM @img1: a short, trimmed beard, close to the jaw, about half the length and volume of the beard in @img1. Mostly dark, nearly black, with grey only at the chin and a few grey streaks at the sides. Not white. Moustache short and connected. Same stylization as @img1: a few large simplified clumps with crisp edges, no individual hairs. Eyebrows dark with a few grey hairs, neat, not bushy.
+
+FACE, YOUNGER THAN @img1: firm cheeks and a firm jawline, no sagging, no loose skin. Temples full, not hollow. Only one or two light forehead lines, light lines at the outer eye corners, and a moderate fold from the nose to the mouth corners. Upper lids slightly heavy, still covering the top of the iris. Skin smoother and fuller than @img1.
+
+NOSE, UNCHANGED: exactly the shape in @img1, long, straight bridge, pointed tip angling down, narrow base. No surface detail on it.
+
+BUILD: heavier adult build, thick neck, broad shoulders, fuller chest. Solid, not muscular, not frail.
+
+HEAD CLOTH AND ROBE: exactly as in @img1. Cloth covering both ears, hanging clear of the shoulders, black double cord on the crown. Robe pure white, flat round neckline, no collar, no embroidery, only fine stitching lines, same tassel.
+
+SKIN: same warm tone as @img1.
+
+ZBrush sculpt screenshot look, matte clay with polypaint, flat grey background. Bust only, one single figure, no text.
+```
