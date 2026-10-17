@@ -12,6 +12,23 @@ Dan, working the weekend: "oct 20 is our deadline for dct after all this time." 
 
 ---
 
+## 16 to 17 Oct 2026 · Male faces approved, females in game, Young female neck · Slack
+
+Approvals (Fri 16, night):
+- 11:28 PM, Vini sends the UAE male Old face. Dan, 11:30 PM: "looks great".
+- 11:55 PM, Vini sends the Middle face. Dan, same minute: "awesome".
+
+Females in game (Sat 17):
+- Dan posts a female at the weaving loom in the scene.
+- 12:19 AM, Dan posts the line-up: "all 3 are in! they look great".
+
+Fix needed, Young female neck (Sat 17):
+- 1:12 AM, Dan: "im seeing some craziness in the neck." The neck under the head covering comes through in certain animations. He thinks he can fix the clipping at extreme neck angles, "but im not sure why the neck is all collapsed like that."
+- 1:16 AM, Dan: "un overlapping them does this", with a render of the neck mesh pulled apart showing collapsed, folded geometry.
+- Reading: the hidden neck geometry is collapsed or overlapping in the low poly, and it pokes through the shayla in some animations.
+
+---
+
 ## 14 Oct 2026 · Young female, draped shayla and neck · Dan
 
 Vini asked whether to follow the DCT reference photo for the Young female (draped shayla, neck open) or keep the neck covered. Draped shayla is going in either way.
