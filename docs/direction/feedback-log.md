@@ -32,6 +32,7 @@ Fix needed, Young female neck (Sat 17):
 - 1:12 AM, Dan: "im seeing some craziness in the neck." The neck under the head covering comes through in certain animations. He thinks he can fix the clipping at extreme neck angles, "but im not sure why the neck is all collapsed like that."
 - 1:16 AM, Dan: "un overlapping them does this", with a render of the neck mesh pulled apart showing collapsed, folded geometry.
 - Reading: the hidden neck geometry is collapsed or overlapping in the low poly, and it pokes through the shayla in some animations.
+- Fixed 17 Oct: Vini applied Snap to Symmetry on the neck, which resolved the collapsed vertices.
 
 ---
 
