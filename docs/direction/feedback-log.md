@@ -4,6 +4,12 @@ Daniel's reactions to WIPs, dated, verbatim where possible. Newest first.
 
 ---
 
+## 18 Oct 2026 · Males split for export
+
+Dan asked to split the males into separate meshes per LOD: body, Agal_Gutra (head cloth and cord as one) and FacialHair (all facial hair as one). Dan split the Young himself. Vini split the Elder, Middle and Old the same way and uploaded them to SVN.
+
+---
+
 ## 17 Oct 2026 · All four males on SVN
 
 Vini uploaded the Old and Middle for Dan's review, then the Young and Elder after the last tweaks (Elder beard and hair paint improved). Texture adjustments from the 2 Oct review sent to Dan as a board with a checklist: weave reduced, curvature, wrist folds, buttons reworked, eyes tweaked, black beard and brows.
