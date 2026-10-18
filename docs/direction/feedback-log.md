@@ -4,7 +4,7 @@ Daniel's reactions to WIPs, dated, verbatim where possible. Newest first.
 
 ---
 
-## 18 Oct 2026 · All four males on SVN
+## 17 Oct 2026 · All four males on SVN
 
 Vini uploaded the Old and Middle for Dan's review, then the Young and Elder after the last tweaks (Elder beard and hair paint improved). Texture adjustments from the 2 Oct review sent to Dan as a board with a checklist: weave reduced, curvature, wrist folds, buttons reworked, eyes tweaked, black beard and brows.
 
