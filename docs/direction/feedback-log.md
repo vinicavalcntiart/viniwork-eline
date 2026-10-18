@@ -4,6 +4,12 @@ Daniel's reactions to WIPs, dated, verbatim where possible. Newest first.
 
 ---
 
+## 18 Oct 2026 · All four males on SVN
+
+Vini uploaded the Old and Middle for Dan's review, then the Young and Elder after the last tweaks (Elder beard and hair paint improved). Texture adjustments from the 2 Oct review sent to Dan as a board with a checklist: weave reduced, curvature, wrist folds, buttons reworked, eyes tweaked, black beard and brows.
+
+---
+
 ## 17 Oct 2026 · DCT deadline · Slack DM, 1:22 AM
 
 Dan, working the weekend: "oct 20 is our deadline for dct after all this time." His list includes getting the males exported and set up in Greg's maps with him, plus the water shader, Scott's props, animations and asset swaps.
