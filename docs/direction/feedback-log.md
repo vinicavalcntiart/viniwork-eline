@@ -8,7 +8,7 @@ Daniel's reactions to WIPs, dated, verbatim where possible. Newest first.
 
 "@Vini the new female characters are up and published, check them out, thanks for the assist that really helped out!"
 
-The updated females (rigging fix, split per LOD) are published. First public thank-you from Dan to Vini in the art channel during the UAE cycle.
+The updated females (rigging fix, split per LOD) are published.
 
 ---
 
