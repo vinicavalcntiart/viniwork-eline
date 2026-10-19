@@ -4,6 +4,14 @@ Daniel's reactions to WIPs, dated, verbatim where possible. Newest first.
 
 ---
 
+## 19 Oct 2026 · Public thanks · Dan in the art channel, 6:08 PM
+
+"@Vini the new female characters are up and published, check them out, thanks for the assist that really helped out!"
+
+The updated females (rigging fix, split per LOD) are published. First public thank-you from Dan to Vini in the art channel during the UAE cycle.
+
+---
+
 ## 19 Oct 2026 · Old female rigging update and split
 
 Vini's task for the day: rigging updates. Asked Dan whether the necklace should sit under the black cloth. Rigged the necklace, split the Old female per LOD into body, Battoulah, Necklace, Bracelet_Left and Bracelet_Right, and saved to SVN as UAE_Old_Female_Rigging_LODs_Fix_Separated.blend. The rig needs relinking on Dan's side because of SVN; weights work.
