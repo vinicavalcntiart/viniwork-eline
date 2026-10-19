@@ -4,6 +4,12 @@ Daniel's reactions to WIPs, dated, verbatim where possible. Newest first.
 
 ---
 
+## 19 Oct 2026 · Males published · Dan in the art channel
+
+Dan exported and published all four males Vini made: Young, Middle Age, Old and Elderly, all with toggles. Same update: two new Bedouin raider variants in the desert crossing level; practice animations (pearl sorting, basket weaving, oyster shucking, loom) semi-finished, re-export blocked by a script rights issue; wind towers in Greg's levels swapped for the prop; doors and windows of non-enterable buildings made non-interactable; good props published under Endless Studios. Migration list meeting later today. Dan: "as far as art goes i think we are in a pretty good spot!"
+
+---
+
 ## 18 Oct 2026 · Males split for export
 
 Dan asked to split the males into separate meshes per LOD: body, Agal_Gutra (head cloth and cord as one) and FacialHair (all facial hair as one). Dan split the Young himself. Vini split the Elder, Middle and Old the same way and uploaded them to SVN.
