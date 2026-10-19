@@ -4,6 +4,12 @@ Daniel's reactions to WIPs, dated, verbatim where possible. Newest first.
 
 ---
 
+## 19 Oct 2026 · Old female rigging update and split
+
+Vini's task for the day: rigging updates. Asked Dan whether the necklace should sit under the black cloth. Rigged the necklace, split the Old female per LOD into body, Battoulah, Necklace, Bracelet_Left and Bracelet_Right, and saved to SVN as UAE_Old_Female_Rigging_LODs_Fix_Separated.blend. The rig needs relinking on Dan's side because of SVN; weights work.
+
+---
+
 ## 19 Oct 2026 · Males published · Dan in the art channel
 
 Dan exported and published all four males Vini made: Young, Middle Age, Old and Elderly, all with toggles. Same update: two new Bedouin raider variants in the desert crossing level; practice animations (pearl sorting, basket weaving, oyster shucking, loom) semi-finished, re-export blocked by a script rights issue; wind towers in Greg's levels swapped for the prop; doors and windows of non-enterable buildings made non-interactable; good props published under Endless Studios. Migration list meeting later today. Dan: "as far as art goes i think we are in a pretty good spot!"
